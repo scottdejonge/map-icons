@@ -7,21 +7,13 @@ Website: <http://map-icons.com/>
 
 Demo: <http://map-icons.com/demo.html>
 
-##Author
-
-Email: <dejonge.scott@gmail.com>
-
-Twitter: [@scottdejonge](http://twitter.com/scottdejonge)
-
-GitHub: <https://github.com/scottdejonge>
-
 ##Summary
 
 Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels
 
 Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documentation/javascript/reference#Marker) dynamic with control over shape, color, size, and icon easily changed using options in the marker object as well as simple [SVG Notation](http://www.w3.org/TR/SVG/paths.html#PathData) and CSS.
 
-##Examples
+##Usage
 Map Icons extends the [Google Maps Marker](https://developers.google.com/maps/documentation/javascript/reference#Marker) Object to enable either an image or SVG marker to be used with the icon placed on top as a label.
 
 ###Creating a Marker
@@ -63,6 +55,15 @@ var marker = new Marker({
 ##Changelog
 
 * 1.0 Initial Commit
+
+##Author
+
+Email: <scott@map-icons.com>
+
+Twitter: [@scottdejonge](http://twitter.com/scottdejonge)
+
+GitHub: <https://github.com/scottdejonge>
+
 
 ##License
 ###Font License
