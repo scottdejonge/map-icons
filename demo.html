@@ -37,7 +37,7 @@
 	    <script>
 			function initialize() {
 				var mapOptions = {
-					zoom: 11,
+					zoom: 12,
 					center: new google.maps.LatLng(-33.9, 151.2),
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					styles: [
@@ -46,37 +46,70 @@
 					]
 				}
 				var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-				setMarkers(map, beaches);
-			}
-			
-			var beaches = [
-				['Bondi Beach', -33.890542, 151.274856, 4],
-				['Coogee Beach', -33.923036, 151.259052, 5],
-				['Cronulla Beach', -34.028249, 151.157507, 3],
-				['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-				['Maroubra Beach', -33.950198, 151.259302, 1]
-			];
-			
-			function setMarkers(map, locations) {
-				for (var i = 0; i < locations.length; i++) {
-					var beach = locations[i];
-					var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
-					var marker = new Marker({
-						map: map,
-						zIndex: 9,
-						title: 'Map Icons',
-						position: myLatLng,
-						icon: {
-							path: 'M 100 0 L 0 0 L 0 100 L 35 100 L 50 120 L 65 100 L 100 100 Z',
-							fillColor: '#0E77E9',
-							fillOpacity: 1,
-							strokeColor: '',
-							strokeWeight: 0,
-							scale: 1/2
-						},
-						label: '<i class="icon-parking"></i>'
-					});
-				}
+				
+				var marker1 = new Marker({
+					map: map,
+					zIndex: 9,
+					title: 'Map Icons',
+					position:  new google.maps.LatLng(-33.890542, 151.274856),
+					icon: {
+						path: MAP_PIN,
+						fillColor: '#0E77E9',
+						fillOpacity: 1,
+						strokeColor: '',
+						strokeWeight: 0,
+						scale: 1/2
+					},
+					label: '<i class="icon-parking"></i>'
+				});
+				
+				var marker2 = new Marker({
+					map: map,
+					zIndex: 9,
+					title: 'Map Icons',
+					position:  new google.maps.LatLng(-33.923036, 151.259052),
+					icon: {
+						path: SQUARE_PIN,
+						fillColor: '#0E77E9',
+						fillOpacity: 1,
+						strokeColor: '',
+						strokeWeight: 0,
+						scale: 1/2
+					},
+					label: '<i class="icon-parking"></i>'
+				});
+				
+				var marker3 = new Marker({
+					map: map,
+					zIndex: 9,
+					title: 'Map Icons',
+					position:  new google.maps.LatLng(-34.028249, 151.157507),
+					icon: {
+						path: SHEILD,
+						fillColor: '#0E77E9',
+						fillOpacity: 1,
+						strokeColor: '',
+						strokeWeight: 0,
+						scale: 1/2
+					},
+					label: '<i class="icon-parking"></i>'
+				});
+				
+				var marker4 = new Marker({
+					map: map,
+					zIndex: 9,
+					title: 'Map Icons',
+					position:  new google.maps.LatLng(-33.80010128657071, 151.28747820854187),
+					icon: {
+						path: ROUTE,
+						fillColor: '#0E77E9',
+						fillOpacity: 1,
+						strokeColor: '',
+						strokeWeight: 0,
+						scale: 1/2
+					},
+					label: '<i class="icon-parking"></i>'
+				});
 			}
 			
 			google.maps.event.addDomListener(window, 'load', initialize);
