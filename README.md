@@ -1,7 +1,7 @@
 Map-Icons
 =========
 
-Version 1.1
+Version 1.2
 
 Website: <http://map-icons.com/>
 
@@ -61,8 +61,19 @@ var marker = new Marker({
 
 ##Changelog
 
-* 1.1 Added Marker Shapes
-* 1.0 Initial Commit
+#### Version 1.2
+
+* Fixed Icons to be Pixel Grid Aligned
+* Added User Interface Icons
+* Added Marker Icons
+ 
+#### Version 1.1
+
+* Added Marker Shapes
+
+#### Version 1.0
+
+* Initial Commit
 
 ##Author
 

@@ -19,6 +19,7 @@
 	text-transform: none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -27,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-train_station, .icon-taxi_stand, .icon-subway_station, .icon-car_repair, .icon-car_wash, .icon-transit_station, .icon-airport, .icon-gas_station, .icon-car_rental, .icon-doctor, .icon-health, .icon-dentist, .icon-hospital, .icon-pharmacy, .icon-physiotherapist, .icon-veterinary_care, .icon-point_of_interest, .icon-natural_feature, .icon-political, .icon-embassy, .icon-city_hall, .icon-local_government, .icon-gym, .icon-spa, .icon-painter, .icon-night_club, .icon-store, .icon-electronics_store, .icon-movie_rental, .icon-plumber, .icon-school, .icon-courthouse, .icon-amusement_park, .icon-university, .icon-roofing_contractor, .icon-clothing_store, .icon-convenience_store, .icon-cemetery, .icon-atm, .icon-aquarium, .icon-bar, .icon-bank, .icon-funeral_home, .icon-furniture_store, .icon-grocery_or_supermarket, .icon-lodging, .icon-finance, .icon-casino, .icon-movie_theater, .icon-bowling_alley, .icon-department_store, .icon-park, .icon-bus_station, .icon-zoo, .icon-stadium, .icon-shopping_mall, .icon-jewelry_store, .icon-parking, .icon-church, .icon-bakery, .icon-cafe, .icon-hindu_temple, .icon-liquor_store, .icon-pet_store, .icon-car_dealer, .icon-bicycle_store, .icon-mosque, .icon-food, .icon-restaurant, .icon-place_of_worship, .icon-book_store, .icon-florist, .icon-hardware_store, .icon-synagogue, .icon-campground, .icon-laundry, .icon-post_office, .icon-travel_agency, .icon-fire_station, .icon-rv_park, .icon-art_gallery, .icon-insurance_agency, .icon-police, .icon-post_box, .icon-route, .icon-lawyer, .icon-electrician, .icon-library, .icon-museum, .icon-general_contractor, .icon-real_estate_agency, .icon-postal_code, .icon-postal_code_prefix, .icon-accounting, .icon-locksmith, .icon-beauty_salon, .icon-hair_care, .icon-moving_company, .icon-storage {
+.icon-map-pin, .icon-expand, .icon-fullscreen, .icon-square-pin, .icon-route-pin, .icon-sheild, .icon-liquor_store, .icon-bicycle_store, .icon-hardware_store, .icon-insurance_agency, .icon-lawyer, .icon-real_estate_agency, .icon-art_gallery, .icon-campground, .icon-bakery, .icon-bar, .icon-amusement_park, .icon-aquarium, .icon-airport, .icon-bank, .icon-book_store, .icon-car_rental, .icon-car_dealer, .icon-hospital, .icon-hair_care, .icon-gym, .icon-grocery_or_supermarket, .icon-general_contractor, .icon-pharmacy, .icon-point_of_interest, .icon-political, .icon-post_box, .icon-health, .icon-post_office, .icon-real_estate_agency-copy, .icon-hindu_temple, .icon-restaurant, .icon-female, .icon-male, .icon-zoo, .icon-veterinary_care, .icon-car_repair, .icon-university, .icon-travel_agency, .icon-transit_station, .icon-beauty_salon, .icon-electronics_store, .icon-search, .icon-zoom-out-alt, .icon-movie_rental, .icon-atm, .icon-jewelry_store, .icon-car_wash, .icon-unisex, .icon-rv_park, .icon-school, .icon-clothing_store, .icon-laundry, .icon-casino, .icon-place_of_worship, .icon-furniture_store, .icon-zoom-in-alt, .icon-zoom-in, .icon-department_store, .icon-fire_station, .icon-church, .icon-library, .icon-shopping_mall, .icon-local_government, .icon-spa, .icon-convenience_store, .icon-police, .icon-route, .icon-zoom-out, .icon-location-arrow, .icon-postal_code, .icon-locksmith, .icon-doctor, .icon-mosque, .icon-stadium, .icon-storage, .icon-movie_theater, .icon-electrician, .icon-moving_company, .icon-postal_code_prefix, .icon-crosshairs, .icon-compass, .icon-dentist, .icon-plumber, .icon-museum, .icon-finance, .icon-parking, .icon-courthouse, .icon-accounting, .icon-store, .icon-subway_station, .icon-natural_feature, .icon-florist, .icon-food, .icon-night_club, .icon-synagogue, .icon-taxi_stand, .icon-painter, .icon-train_station, .icon-pet_store, .icon-gas_station, .icon-funeral_home, .icon-cemetery, .icon-bowling_alley, .icon-roofing_contractor, .icon-physiotherapist, .icon-embassy, .icon-city_hall, .icon-bus_station, .icon-park, .icon-lodging, .icon-cafe, .icon-toilet, .icon-circle, .icon-square-rounded, .icon-square {
 	font-family: 'map-icons';
 	speak: none;
 	font-style: normal;
@@ -37,300 +38,366 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-train_station:before {
+.icon-map-pin:before {
 	content: "\e000";
 }
-.icon-taxi_stand:before {
+.icon-expand:before {
 	content: "\e001";
 }
-.icon-subway_station:before {
+.icon-fullscreen:before {
 	content: "\e002";
 }
-.icon-car_repair:before {
+.icon-square-pin:before {
 	content: "\e003";
 }
-.icon-car_wash:before {
+.icon-route-pin:before {
 	content: "\e004";
 }
-.icon-transit_station:before {
+.icon-sheild:before {
 	content: "\e005";
 }
-.icon-airport:before {
+.icon-liquor_store:before {
 	content: "\e006";
 }
-.icon-gas_station:before {
+.icon-bicycle_store:before {
 	content: "\e007";
 }
-.icon-car_rental:before {
+.icon-hardware_store:before {
 	content: "\e008";
 }
-.icon-doctor:before {
+.icon-insurance_agency:before {
 	content: "\e009";
 }
-.icon-health:before {
+.icon-lawyer:before {
 	content: "\e00a";
 }
-.icon-dentist:before {
+.icon-real_estate_agency:before {
 	content: "\e00b";
 }
-.icon-hospital:before {
+.icon-art_gallery:before {
 	content: "\e00c";
 }
-.icon-pharmacy:before {
+.icon-campground:before {
 	content: "\e00d";
 }
-.icon-physiotherapist:before {
+.icon-bakery:before {
 	content: "\e00e";
 }
-.icon-veterinary_care:before {
+.icon-bar:before {
 	content: "\e00f";
 }
-.icon-point_of_interest:before {
+.icon-amusement_park:before {
 	content: "\e010";
 }
-.icon-natural_feature:before {
+.icon-aquarium:before {
 	content: "\e011";
 }
-.icon-political:before {
+.icon-airport:before {
 	content: "\e012";
 }
-.icon-embassy:before {
+.icon-bank:before {
 	content: "\e013";
 }
-.icon-city_hall:before {
+.icon-book_store:before {
 	content: "\e014";
 }
-.icon-local_government:before {
-	content: "\e015";
-}
-.icon-gym:before {
+.icon-car_rental:before {
 	content: "\e016";
 }
-.icon-spa:before {
+.icon-car_dealer:before {
 	content: "\e017";
 }
-.icon-painter:before {
+.icon-hospital:before {
 	content: "\e018";
 }
-.icon-night_club:before {
+.icon-hair_care:before {
 	content: "\e019";
 }
-.icon-store:before {
+.icon-gym:before {
 	content: "\e01a";
 }
-.icon-electronics_store:before {
+.icon-grocery_or_supermarket:before {
 	content: "\e01b";
 }
-.icon-movie_rental:before {
+.icon-general_contractor:before {
 	content: "\e01c";
 }
-.icon-plumber:before {
+.icon-pharmacy:before {
 	content: "\e01d";
 }
-.icon-school:before {
+.icon-point_of_interest:before {
 	content: "\e01e";
 }
-.icon-courthouse:before {
+.icon-political:before {
 	content: "\e01f";
 }
-.icon-amusement_park:before {
+.icon-post_box:before {
 	content: "\e020";
 }
-.icon-university:before {
+.icon-health:before {
 	content: "\e021";
 }
-.icon-roofing_contractor:before {
+.icon-post_office:before {
 	content: "\e022";
 }
-.icon-clothing_store:before {
+.icon-real_estate_agency-copy:before {
 	content: "\e023";
 }
-.icon-convenience_store:before {
+.icon-hindu_temple:before {
 	content: "\e024";
 }
-.icon-cemetery:before {
+.icon-restaurant:before {
 	content: "\e025";
 }
-.icon-atm:before {
+.icon-female:before {
 	content: "\e026";
 }
-.icon-aquarium:before {
+.icon-male:before {
 	content: "\e027";
 }
-.icon-bar:before {
+.icon-zoo:before {
 	content: "\e028";
 }
-.icon-bank:before {
+.icon-veterinary_care:before {
 	content: "\e029";
 }
-.icon-funeral_home:before {
+.icon-car_repair:before {
 	content: "\e02a";
 }
-.icon-furniture_store:before {
+.icon-university:before {
 	content: "\e02b";
 }
-.icon-grocery_or_supermarket:before {
+.icon-travel_agency:before {
 	content: "\e02c";
 }
-.icon-lodging:before {
+.icon-transit_station:before {
 	content: "\e02d";
 }
-.icon-finance:before {
+.icon-beauty_salon:before {
 	content: "\e02e";
 }
-.icon-casino:before {
+.icon-electronics_store:before {
 	content: "\e02f";
 }
-.icon-movie_theater:before {
+.icon-search:before {
 	content: "\e030";
 }
-.icon-bowling_alley:before {
+.icon-zoom-out-alt:before {
 	content: "\e031";
 }
-.icon-department_store:before {
+.icon-movie_rental:before {
 	content: "\e032";
 }
-.icon-park:before {
+.icon-atm:before {
 	content: "\e033";
 }
-.icon-bus_station:before {
+.icon-jewelry_store:before {
 	content: "\e034";
 }
-.icon-zoo:before {
+.icon-car_wash:before {
 	content: "\e035";
 }
-.icon-stadium:before {
+.icon-unisex:before {
 	content: "\e036";
 }
-.icon-shopping_mall:before {
+.icon-rv_park:before {
 	content: "\e037";
 }
-.icon-jewelry_store:before {
+.icon-school:before {
 	content: "\e038";
 }
-.icon-parking:before {
+.icon-clothing_store:before {
 	content: "\e039";
 }
-.icon-church:before {
+.icon-laundry:before {
 	content: "\e03a";
 }
-.icon-bakery:before {
+.icon-casino:before {
 	content: "\e03b";
 }
-.icon-cafe:before {
+.icon-place_of_worship:before {
 	content: "\e03c";
 }
-.icon-hindu_temple:before {
+.icon-furniture_store:before {
 	content: "\e03d";
 }
-.icon-liquor_store:before {
+.icon-zoom-in-alt:before {
 	content: "\e03e";
 }
-.icon-pet_store:before {
+.icon-zoom-in:before {
 	content: "\e03f";
 }
-.icon-car_dealer:before {
+.icon-department_store:before {
 	content: "\e040";
 }
-.icon-bicycle_store:before {
+.icon-fire_station:before {
 	content: "\e041";
 }
-.icon-mosque:before {
+.icon-church:before {
 	content: "\e042";
 }
-.icon-food:before {
+.icon-library:before {
 	content: "\e043";
 }
-.icon-restaurant:before {
+.icon-shopping_mall:before {
 	content: "\e044";
 }
-.icon-place_of_worship:before {
+.icon-local_government:before {
 	content: "\e045";
 }
-.icon-book_store:before {
+.icon-spa:before {
 	content: "\e046";
 }
-.icon-florist:before {
+.icon-convenience_store:before {
 	content: "\e047";
 }
-.icon-hardware_store:before {
+.icon-police:before {
 	content: "\e048";
 }
-.icon-synagogue:before {
+.icon-route:before {
 	content: "\e049";
 }
-.icon-campground:before {
+.icon-zoom-out:before {
 	content: "\e04a";
 }
-.icon-laundry:before {
+.icon-location-arrow:before {
 	content: "\e04b";
 }
-.icon-post_office:before {
+.icon-postal_code:before {
 	content: "\e04c";
 }
-.icon-travel_agency:before {
+.icon-locksmith:before {
 	content: "\e04d";
 }
-.icon-fire_station:before {
+.icon-doctor:before {
 	content: "\e04e";
 }
-.icon-rv_park:before {
+.icon-mosque:before {
 	content: "\e04f";
 }
-.icon-art_gallery:before {
+.icon-stadium:before {
 	content: "\e050";
 }
-.icon-insurance_agency:before {
+.icon-storage:before {
 	content: "\e051";
 }
-.icon-police:before {
+.icon-movie_theater:before {
 	content: "\e052";
 }
-.icon-post_box:before {
+.icon-electrician:before {
 	content: "\e053";
 }
-.icon-route:before {
+.icon-moving_company:before {
 	content: "\e054";
 }
-.icon-lawyer:before {
+.icon-postal_code_prefix:before {
 	content: "\e055";
 }
-.icon-electrician:before {
+.icon-crosshairs:before {
 	content: "\e056";
 }
-.icon-library:before {
+.icon-compass:before {
 	content: "\e057";
 }
-.icon-museum:before {
+.icon-dentist:before {
 	content: "\e058";
 }
-.icon-general_contractor:before {
+.icon-plumber:before {
 	content: "\e059";
 }
-.icon-real_estate_agency:before {
-	content: "\e05a";
-}
-.icon-postal_code:before {
+.icon-museum:before {
 	content: "\e05b";
 }
-.icon-postal_code_prefix:before {
+.icon-finance:before {
+	content: "\e05a";
+}
+.icon-parking:before {
 	content: "\e05c";
 }
-.icon-accounting:before {
+.icon-courthouse:before {
 	content: "\e05d";
 }
-.icon-locksmith:before {
+.icon-accounting:before {
 	content: "\e05e";
 }
-.icon-beauty_salon:before {
+.icon-store:before {
 	content: "\e05f";
 }
-.icon-hair_care:before {
+.icon-subway_station:before {
 	content: "\e060";
 }
-.icon-moving_company:before {
+.icon-natural_feature:before {
 	content: "\e061";
 }
-.icon-storage:before {
+.icon-florist:before {
 	content: "\e062";
+}
+.icon-food:before {
+	content: "\e063";
+}
+.icon-night_club:before {
+	content: "\e064";
+}
+.icon-synagogue:before {
+	content: "\e065";
+}
+.icon-taxi_stand:before {
+	content: "\e066";
+}
+.icon-painter:before {
+	content: "\e067";
+}
+.icon-train_station:before {
+	content: "\e068";
+}
+.icon-pet_store:before {
+	content: "\e069";
+}
+.icon-gas_station:before {
+	content: "\e06a";
+}
+.icon-funeral_home:before {
+	content: "\e06b";
+}
+.icon-cemetery:before {
+	content: "\e06c";
+}
+.icon-bowling_alley:before {
+	content: "\e06d";
+}
+.icon-roofing_contractor:before {
+	content: "\e06e";
+}
+.icon-physiotherapist:before {
+	content: "\e06f";
+}
+.icon-embassy:before {
+	content: "\e070";
+}
+.icon-city_hall:before {
+	content: "\e071";
+}
+.icon-bus_station:before {
+	content: "\e072";
+}
+.icon-park:before {
+	content: "\e073";
+}
+.icon-lodging:before {
+	content: "\e074";
+}
+.icon-cafe:before {
+	content: "\e015";
+}
+.icon-toilet:before {
+	content: "\e075";
+}
+.icon-circle:before {
+	content: "\e076";
+}
+.icon-square-rounded:before {
+	content: "\e077";
+}
+.icon-square:before {
+	content: "\e078";
 }
