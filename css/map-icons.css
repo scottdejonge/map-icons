@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-map-pin, .icon-expand, .icon-fullscreen, .icon-square-pin, .icon-route-pin, .icon-sheild, .icon-liquor_store, .icon-bicycle_store, .icon-hardware_store, .icon-insurance_agency, .icon-lawyer, .icon-real_estate_agency, .icon-art_gallery, .icon-campground, .icon-bakery, .icon-bar, .icon-amusement_park, .icon-aquarium, .icon-airport, .icon-bank, .icon-book_store, .icon-car_rental, .icon-car_dealer, .icon-hospital, .icon-hair_care, .icon-gym, .icon-grocery_or_supermarket, .icon-general_contractor, .icon-pharmacy, .icon-point_of_interest, .icon-political, .icon-post_box, .icon-health, .icon-post_office, .icon-real_estate_agency-copy, .icon-hindu_temple, .icon-restaurant, .icon-female, .icon-male, .icon-zoo, .icon-veterinary_care, .icon-car_repair, .icon-university, .icon-travel_agency, .icon-transit_station, .icon-beauty_salon, .icon-electronics_store, .icon-search, .icon-zoom-out-alt, .icon-movie_rental, .icon-atm, .icon-jewelry_store, .icon-car_wash, .icon-unisex, .icon-rv_park, .icon-school, .icon-clothing_store, .icon-laundry, .icon-casino, .icon-place_of_worship, .icon-furniture_store, .icon-zoom-in-alt, .icon-zoom-in, .icon-department_store, .icon-fire_station, .icon-church, .icon-library, .icon-shopping_mall, .icon-local_government, .icon-spa, .icon-convenience_store, .icon-police, .icon-route, .icon-zoom-out, .icon-location-arrow, .icon-postal_code, .icon-locksmith, .icon-doctor, .icon-mosque, .icon-stadium, .icon-storage, .icon-movie_theater, .icon-electrician, .icon-moving_company, .icon-postal_code_prefix, .icon-crosshairs, .icon-compass, .icon-dentist, .icon-plumber, .icon-museum, .icon-finance, .icon-parking, .icon-courthouse, .icon-accounting, .icon-store, .icon-subway_station, .icon-natural_feature, .icon-florist, .icon-food, .icon-night_club, .icon-synagogue, .icon-taxi_stand, .icon-painter, .icon-train_station, .icon-pet_store, .icon-gas_station, .icon-funeral_home, .icon-cemetery, .icon-bowling_alley, .icon-roofing_contractor, .icon-physiotherapist, .icon-embassy, .icon-city_hall, .icon-bus_station, .icon-park, .icon-lodging, .icon-cafe, .icon-toilet, .icon-circle, .icon-square-rounded, .icon-square {
+.icon-map-pin, .icon-expand, .icon-fullscreen, .icon-square-pin, .icon-route-pin, .icon-sheild, .icon-liquor_store, .icon-bicycle_store, .icon-hardware_store, .icon-insurance_agency, .icon-lawyer, .icon-real_estate_agency, .icon-art_gallery, .icon-campground, .icon-bakery, .icon-bar, .icon-amusement_park, .icon-aquarium, .icon-airport, .icon-bank, .icon-car_rental, .icon-car_dealer, .icon-hospital, .icon-hair_care, .icon-gym, .icon-grocery_or_supermarket, .icon-general_contractor, .icon-pharmacy, .icon-point_of_interest, .icon-political, .icon-post_box, .icon-health, .icon-post_office, .icon-real_estate_agency-copy, .icon-hindu_temple, .icon-restaurant, .icon-female, .icon-male, .icon-zoo, .icon-veterinary_care, .icon-car_repair, .icon-university, .icon-travel_agency, .icon-transit_station, .icon-beauty_salon, .icon-electronics_store, .icon-search, .icon-zoom-out-alt, .icon-movie_rental, .icon-atm, .icon-jewelry_store, .icon-car_wash, .icon-unisex, .icon-rv_park, .icon-school, .icon-clothing_store, .icon-laundry, .icon-casino, .icon-place_of_worship, .icon-furniture_store, .icon-zoom-in-alt, .icon-zoom-in, .icon-department_store, .icon-fire_station, .icon-church, .icon-library, .icon-shopping_mall, .icon-local_government, .icon-spa, .icon-convenience_store, .icon-police, .icon-route, .icon-zoom-out, .icon-location-arrow, .icon-postal_code, .icon-locksmith, .icon-doctor, .icon-mosque, .icon-stadium, .icon-storage, .icon-movie_theater, .icon-electrician, .icon-moving_company, .icon-postal_code_prefix, .icon-crosshairs, .icon-compass, .icon-dentist, .icon-plumber, .icon-museum, .icon-finance, .icon-parking, .icon-courthouse, .icon-accounting, .icon-store, .icon-subway_station, .icon-natural_feature, .icon-florist, .icon-food, .icon-night_club, .icon-synagogue, .icon-taxi_stand, .icon-painter, .icon-train_station, .icon-pet_store, .icon-gas_station, .icon-funeral_home, .icon-cemetery, .icon-bowling_alley, .icon-roofing_contractor, .icon-physiotherapist, .icon-embassy, .icon-city_hall, .icon-bus_station, .icon-park, .icon-lodging, .icon-toilet, .icon-circle, .icon-square-rounded, .icon-square, .icon-book_store, .icon-cafe, .icon-wheelchair, .icon-volume-control-telephone, .icon-sign-language, .icon-low-vision-access, .icon-open-captioning, .icon-closed-captioning, .icon-braille, .icon-audio-description, .icon-assistive-listening-system, .icon-abseiling, .icon-tennis, .icon-skateboarding, .icon-playground, .icon-inline-skating, .icon-hang-gliding, .icon-climbing, .icon-baseball, .icon-archery, .icon-wind-surfing, .icon-scuba-diving, .icon-sailing, .icon-marina, .icon-canoe, .icon-boat-tour, .icon-boat-ramp, .icon-swimming, .icon-whale-watching, .icon-waterskiing, .icon-surfing, .icon-rafting, .icon-kayaking, .icon-jet-skiing, .icon-fishing-pier, .icon-fish-cleaning, .icon-diving, .icon-boating, .icon-fishing, .icon-cross-country-skiing, .icon-skiing, .icon-snowmobile, .icon-snowboarding, .icon-snow, .icon-snow-shoeing, .icon-sledding, .icon-ski-jumping, .icon-ice-skating, .icon-ice-fishing, .icon-chairlift, .icon-golf, .icon-horse-riding, .icon-motobike-trail, .icon-trail-walking, .icon-viewing, .icon-walking, .icon-bicycling {
 	font-family: 'map-icons';
 	speak: none;
 	font-style: normal;
@@ -97,9 +97,6 @@ you can use the generic selector below, but it's slower:
 }
 .icon-bank:before {
 	content: "\e013";
-}
-.icon-book_store:before {
-	content: "\e014";
 }
 .icon-car_rental:before {
 	content: "\e016";
@@ -386,9 +383,6 @@ you can use the generic selector below, but it's slower:
 .icon-lodging:before {
 	content: "\e074";
 }
-.icon-cafe:before {
-	content: "\e015";
-}
 .icon-toilet:before {
 	content: "\e075";
 }
@@ -400,4 +394,175 @@ you can use the generic selector below, but it's slower:
 }
 .icon-square:before {
 	content: "\e078";
+}
+.icon-book_store:before {
+	content: "\e014";
+}
+.icon-cafe:before {
+	content: "\e015";
+}
+.icon-wheelchair:before {
+	content: "\e079";
+}
+.icon-volume-control-telephone:before {
+	content: "\e07a";
+}
+.icon-sign-language:before {
+	content: "\e07b";
+}
+.icon-low-vision-access:before {
+	content: "\e07c";
+}
+.icon-open-captioning:before {
+	content: "\e07d";
+}
+.icon-closed-captioning:before {
+	content: "\e07e";
+}
+.icon-braille:before {
+	content: "\e07f";
+}
+.icon-audio-description:before {
+	content: "\e080";
+}
+.icon-assistive-listening-system:before {
+	content: "\e081";
+}
+.icon-abseiling:before {
+	content: "\e082";
+}
+.icon-tennis:before {
+	content: "\e083";
+}
+.icon-skateboarding:before {
+	content: "\e084";
+}
+.icon-playground:before {
+	content: "\e085";
+}
+.icon-inline-skating:before {
+	content: "\e086";
+}
+.icon-hang-gliding:before {
+	content: "\e087";
+}
+.icon-climbing:before {
+	content: "\e088";
+}
+.icon-baseball:before {
+	content: "\e089";
+}
+.icon-archery:before {
+	content: "\e08a";
+}
+.icon-wind-surfing:before {
+	content: "\e08b";
+}
+.icon-scuba-diving:before {
+	content: "\e08c";
+}
+.icon-sailing:before {
+	content: "\e08d";
+}
+.icon-marina:before {
+	content: "\e08e";
+}
+.icon-canoe:before {
+	content: "\e08f";
+}
+.icon-boat-tour:before {
+	content: "\e090";
+}
+.icon-boat-ramp:before {
+	content: "\e091";
+}
+.icon-swimming:before {
+	content: "\e092";
+}
+.icon-whale-watching:before {
+	content: "\e093";
+}
+.icon-waterskiing:before {
+	content: "\e094";
+}
+.icon-surfing:before {
+	content: "\e095";
+}
+.icon-rafting:before {
+	content: "\e096";
+}
+.icon-kayaking:before {
+	content: "\e097";
+}
+.icon-jet-skiing:before {
+	content: "\e099";
+}
+.icon-fishing-pier:before {
+	content: "\e09a";
+}
+.icon-fish-cleaning:before {
+	content: "\e09b";
+}
+.icon-diving:before {
+	content: "\e09c";
+}
+.icon-boating:before {
+	content: "\e09d";
+}
+.icon-fishing:before {
+	content: "\e098";
+}
+.icon-cross-country-skiing:before {
+	content: "\e09e";
+}
+.icon-skiing:before {
+	content: "\e09f";
+}
+.icon-snowmobile:before {
+	content: "\e0a0";
+}
+.icon-snowboarding:before {
+	content: "\e0a1";
+}
+.icon-snow:before {
+	content: "\e0a2";
+}
+.icon-snow-shoeing:before {
+	content: "\e0a3";
+}
+.icon-sledding:before {
+	content: "\e0a4";
+}
+.icon-ski-jumping:before {
+	content: "\e0a5";
+}
+.icon-ice-skating:before {
+	content: "\e0a6";
+}
+.icon-ice-fishing:before {
+	content: "\e0a7";
+}
+.icon-chairlift:before {
+	content: "\e0a8";
+}
+.icon-golf:before {
+	content: "\e0a9";
+}
+.icon-horse-riding:before {
+	content: "\e0aa";
+}
+.icon-motobike-trail:before {
+	content: "\e0ab";
+}
+.icon-trail-walking:before {
+	content: "\e0ac";
+}
+.icon-viewing:before {
+	content: "\e0ad";
+}
+.icon-walking:before {
+	content: "\e0ae";
+}
+.icon-bicycling:before {
+	content: "\e0af";
 }

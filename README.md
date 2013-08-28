@@ -1,7 +1,7 @@
 Map-Icons
 =========
 
-Version 1.2
+Version 2.0
 
 Website: <http://map-icons.com/>
 
@@ -60,6 +60,11 @@ var marker = new Marker({
 ```
 
 ##Changelog
+
+#### Version 2.0
+
+* Added Activity Icons
+* Fix Marker Docs with SVG Notation
 
 #### Version 1.2
 
