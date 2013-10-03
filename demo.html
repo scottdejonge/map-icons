@@ -21,17 +21,19 @@
 				height: 100%;
 			}
 			
-			.marker-label {
+			.marker-label,
+			.marker-icon {
 				z-index: 99;
 				position: absolute;
 				display: block;
+				margin-top: -50px;
+				margin-left: -25px;
 				width: 50px;
 				height: 50px;
-				white-space: nowrap;
-				color: #FFFFFF;
-				font-size: 30px;
-				line-height: 50px;
+				font-size: 30px !important;
 				text-align: center;
+				color: #FFFFFF;
+				white-space: nowrap;
 			}
 		</style>
 	    <script>
@@ -60,7 +62,7 @@
 						strokeWeight: 0,
 						scale: 1/2
 					},
-					label: '<i class="icon-parking"></i>'
+					label: '<i class="map-icon-walking"></i>'
 				});
 				
 				var marker2 = new Marker({
@@ -76,7 +78,7 @@
 						strokeWeight: 0,
 						scale: 1/2
 					},
-					label: '<i class="icon-parking"></i>'
+					label: '<i class="map-icon-cafe"></i>'
 				});
 				
 				var marker3 = new Marker({
@@ -92,7 +94,7 @@
 						strokeWeight: 0,
 						scale: 1/2
 					},
-					label: '<i class="icon-parking"></i>'
+					label: '<i class="map-icon-car-wash"></i>'
 				});
 				
 				var marker4 = new Marker({
@@ -108,7 +110,7 @@
 						strokeWeight: 0,
 						scale: 1/2
 					},
-					label: '<i class="icon-parking"></i>'
+					label: '<i class="map-icon-male"></i>'
 				});
 			}
 			

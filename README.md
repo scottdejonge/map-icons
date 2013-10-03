@@ -1,7 +1,7 @@
 Map-Icons
 =========
 
-Version 2.0
+Version 2.1
 
 Website: <http://map-icons.com/>
 
@@ -19,6 +19,7 @@ Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documen
 * SQUARE_PIN
 * SHEILD
 * ROUTE
+* ROUNDED
 
 ##Usage
 Map Icons extends the [Google Maps Marker](https://developers.google.com/maps/documentation/javascript/reference#Marker) Object to enable either an image or SVG marker to be used with the icon placed on top as a label.
@@ -39,27 +40,35 @@ var marker = new Marker({
 		strokeWeight: 0,
 		scale: 1/2
 	},
-	label: '<i class="icon-parking"></i>'
+	label: '<i class="map-icon-parking"></i>'
 });
 ```
 
 ###Styling the Icon
 ```
-.marker-label {
+.marker-label,
+.marker-icon {
 	z-index: 99;
 	position: absolute;
 	display: block;
+	margin-top: -50px;
+	margin-left: -25px;
 	width: 50px;
 	height: 50px;
-	white-space: nowrap;
-	color: #FFFFFF;
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 30px !important;
 	text-align: center;
+	color: #FFFFFF;
+	white-space: nowrap;
 }
 ```
 
 ##Changelog
+
+#### Version 2.1
+
+* Changed icon- prefix to map-icon-
+* Added ROUNDED marker
+* Fixed SVG Markers to center on LatLng
 
 #### Version 2.0
 

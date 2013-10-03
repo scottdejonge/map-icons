@@ -26,9 +26,9 @@
 /*
 Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
-[class*="icon-"] {
+[class*="map-icon-"] {
 */
-.icon-map-pin, .icon-expand, .icon-fullscreen, .icon-square-pin, .icon-route-pin, .icon-sheild, .icon-liquor_store, .icon-bicycle_store, .icon-hardware_store, .icon-insurance_agency, .icon-lawyer, .icon-real_estate_agency, .icon-art_gallery, .icon-campground, .icon-bakery, .icon-bar, .icon-amusement_park, .icon-aquarium, .icon-airport, .icon-bank, .icon-car_rental, .icon-car_dealer, .icon-hospital, .icon-hair_care, .icon-gym, .icon-grocery_or_supermarket, .icon-general_contractor, .icon-pharmacy, .icon-point_of_interest, .icon-political, .icon-post_box, .icon-health, .icon-post_office, .icon-real_estate_agency-copy, .icon-hindu_temple, .icon-restaurant, .icon-female, .icon-male, .icon-zoo, .icon-veterinary_care, .icon-car_repair, .icon-university, .icon-travel_agency, .icon-transit_station, .icon-beauty_salon, .icon-electronics_store, .icon-search, .icon-zoom-out-alt, .icon-movie_rental, .icon-atm, .icon-jewelry_store, .icon-car_wash, .icon-unisex, .icon-rv_park, .icon-school, .icon-clothing_store, .icon-laundry, .icon-casino, .icon-place_of_worship, .icon-furniture_store, .icon-zoom-in-alt, .icon-zoom-in, .icon-department_store, .icon-fire_station, .icon-church, .icon-library, .icon-shopping_mall, .icon-local_government, .icon-spa, .icon-convenience_store, .icon-police, .icon-route, .icon-zoom-out, .icon-location-arrow, .icon-postal_code, .icon-locksmith, .icon-doctor, .icon-mosque, .icon-stadium, .icon-storage, .icon-movie_theater, .icon-electrician, .icon-moving_company, .icon-postal_code_prefix, .icon-crosshairs, .icon-compass, .icon-dentist, .icon-plumber, .icon-museum, .icon-finance, .icon-parking, .icon-courthouse, .icon-accounting, .icon-store, .icon-subway_station, .icon-natural_feature, .icon-florist, .icon-food, .icon-night_club, .icon-synagogue, .icon-taxi_stand, .icon-painter, .icon-train_station, .icon-pet_store, .icon-gas_station, .icon-funeral_home, .icon-cemetery, .icon-bowling_alley, .icon-roofing_contractor, .icon-physiotherapist, .icon-embassy, .icon-city_hall, .icon-bus_station, .icon-park, .icon-lodging, .icon-toilet, .icon-circle, .icon-square-rounded, .icon-square, .icon-book_store, .icon-cafe, .icon-wheelchair, .icon-volume-control-telephone, .icon-sign-language, .icon-low-vision-access, .icon-open-captioning, .icon-closed-captioning, .icon-braille, .icon-audio-description, .icon-assistive-listening-system, .icon-abseiling, .icon-tennis, .icon-skateboarding, .icon-playground, .icon-inline-skating, .icon-hang-gliding, .icon-climbing, .icon-baseball, .icon-archery, .icon-wind-surfing, .icon-scuba-diving, .icon-sailing, .icon-marina, .icon-canoe, .icon-boat-tour, .icon-boat-ramp, .icon-swimming, .icon-whale-watching, .icon-waterskiing, .icon-surfing, .icon-rafting, .icon-kayaking, .icon-jet-skiing, .icon-fishing-pier, .icon-fish-cleaning, .icon-diving, .icon-boating, .icon-fishing, .icon-cross-country-skiing, .icon-skiing, .icon-snowmobile, .icon-snowboarding, .icon-snow, .icon-snow-shoeing, .icon-sledding, .icon-ski-jumping, .icon-ice-skating, .icon-ice-fishing, .icon-chairlift, .icon-golf, .icon-horse-riding, .icon-motobike-trail, .icon-trail-walking, .icon-viewing, .icon-walking, .icon-bicycling {
+.map-icon-map-pin, .map-icon-expand, .map-icon-fullscreen, .map-icon-square-pin, .map-icon-route-pin, .map-icon-sheild, .map-icon-liquor-store, .map-icon-bicycle-store, .map-icon-hardware-store, .map-icon-insurance-agency, .map-icon-lawyer, .map-icon-real-estate-agency, .map-icon-art-gallery, .map-icon-campground, .map-icon-bakery, .map-icon-bar, .map-icon-amusement-park, .map-icon-aquarium, .map-icon-airport, .map-icon-bank, .map-icon-car-rental, .map-icon-car-dealer, .map-icon-hospital, .map-icon-hair-care, .map-icon-gym, .map-icon-grocery-or-supermarket, .map-icon-general-contractor, .map-icon-pharmacy, .map-icon-point-of-interest, .map-icon-political, .map-icon-post-box, .map-icon-health, .map-icon-post-office, .map-icon-real-estate-agency-copy, .map-icon-hindu-temple, .map-icon-restaurant, .map-icon-female, .map-icon-male, .map-icon-zoo, .map-icon-veterinary-care, .map-icon-car-repair, .map-icon-university, .map-icon-travel-agency, .map-icon-transit-station, .map-icon-beauty-salon, .map-icon-electronics-store, .map-icon-search, .map-icon-zoom-out-alt, .map-icon-movie-rental, .map-icon-atm, .map-icon-jewelry-store, .map-icon-car-wash, .map-icon-unisex, .map-icon-rv-park, .map-icon-school, .map-icon-clothing-store, .map-icon-laundry, .map-icon-casino, .map-icon-place-of-worship, .map-icon-furniture-store, .map-icon-zoom-in-alt, .map-icon-zoom-in, .map-icon-department-store, .map-icon-fire-station, .map-icon-church, .map-icon-library, .map-icon-shopping-mall, .map-icon-local-government, .map-icon-spa, .map-icon-convenience-store, .map-icon-police, .map-icon-route, .map-icon-zoom-out, .map-icon-location-arrow, .map-icon-postal-code, .map-icon-locksmith, .map-icon-doctor, .map-icon-mosque, .map-icon-stadium, .map-icon-storage, .map-icon-movie-theater, .map-icon-electrician, .map-icon-moving-company, .map-icon-postal-code-prefix, .map-icon-crosshairs, .map-icon-compass, .map-icon-dentist, .map-icon-plumber, .map-icon-museum, .map-icon-finance, .map-icon-parking, .map-icon-courthouse, .map-icon-accounting, .map-icon-store, .map-icon-subway-station, .map-icon-natural-feature, .map-icon-florist, .map-icon-food, .map-icon-night-club, .map-icon-synagogue, .map-icon-taxi-stand, .map-icon-painter, .map-icon-train-station, .map-icon-pet-store, .map-icon-gas-station, .map-icon-funeral-home, .map-icon-cemetery, .map-icon-bowling-alley, .map-icon-roofing-contractor, .map-icon-physiotherapist, .map-icon-embassy, .map-icon-city-hall, .map-icon-bus-station, .map-icon-park, .map-icon-lodging, .map-icon-toilet, .map-icon-circle, .map-icon-square-rounded, .map-icon-square, .map-icon-book-store, .map-icon-cafe, .map-icon-wheelchair, .map-icon-volume-control-telephone, .map-icon-sign-language, .map-icon-low-vision-access, .map-icon-open-captioning, .map-icon-closed-captioning, .map-icon-braille, .map-icon-audio-description, .map-icon-assistive-listening-system, .map-icon-abseiling, .map-icon-tennis, .map-icon-skateboarding, .map-icon-playground, .map-icon-inline-skating, .map-icon-hang-gliding, .map-icon-climbing, .map-icon-baseball, .map-icon-archery, .map-icon-wind-surfing, .map-icon-scuba-diving, .map-icon-sailing, .map-icon-marina, .map-icon-canoe, .map-icon-boat-tour, .map-icon-boat-ramp, .map-icon-swimming, .map-icon-whale-watching, .map-icon-waterskiing, .map-icon-surfing, .map-icon-rafting, .map-icon-kayaking, .map-icon-jet-skiing, .map-icon-fishing-pier, .map-icon-fish-cleaning, .map-icon-diving, .map-icon-boating, .map-icon-fishing, .map-icon-cross-country-skiing, .map-icon-skiing, .map-icon-snowmobile, .map-icon-snowboarding, .map-icon-snow, .map-icon-snow-shoeing, .map-icon-sledding, .map-icon-ski-jumping, .map-icon-ice-skating, .map-icon-ice-fishing, .map-icon-chairlift, .map-icon-golf, .map-icon-horse-riding, .map-icon-motobike-trail, .map-icon-trail-walking, .map-icon-viewing, .map-icon-walking, .map-icon-bicycling {
 	font-family: 'map-icons';
 	speak: none;
 	font-style: normal;
@@ -38,531 +38,531 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-map-pin:before {
+.map-icon-map-pin:before {
 	content: "\e000";
 }
-.icon-expand:before {
+.map-icon-expand:before {
 	content: "\e001";
 }
-.icon-fullscreen:before {
+.map-icon-fullscreen:before {
 	content: "\e002";
 }
-.icon-square-pin:before {
+.map-icon-square-pin:before {
 	content: "\e003";
 }
-.icon-route-pin:before {
+.map-icon-route-pin:before {
 	content: "\e004";
 }
-.icon-sheild:before {
+.map-icon-sheild:before {
 	content: "\e005";
 }
-.icon-liquor_store:before {
+.map-icon-liquor-store:before {
 	content: "\e006";
 }
-.icon-bicycle_store:before {
+.map-icon-bicycle-store:before {
 	content: "\e007";
 }
-.icon-hardware_store:before {
+.map-icon-hardware-store:before {
 	content: "\e008";
 }
-.icon-insurance_agency:before {
+.map-icon-insurance-agency:before {
 	content: "\e009";
 }
-.icon-lawyer:before {
+.map-icon-lawyer:before {
 	content: "\e00a";
 }
-.icon-real_estate_agency:before {
+.map-icon-real-estate-agency:before {
 	content: "\e00b";
 }
-.icon-art_gallery:before {
+.map-icon-art-gallery:before {
 	content: "\e00c";
 }
-.icon-campground:before {
+.map-icon-campground:before {
 	content: "\e00d";
 }
-.icon-bakery:before {
+.map-icon-bakery:before {
 	content: "\e00e";
 }
-.icon-bar:before {
+.map-icon-bar:before {
 	content: "\e00f";
 }
-.icon-amusement_park:before {
+.map-icon-amusement-park:before {
 	content: "\e010";
 }
-.icon-aquarium:before {
+.map-icon-aquarium:before {
 	content: "\e011";
 }
-.icon-airport:before {
+.map-icon-airport:before {
 	content: "\e012";
 }
-.icon-bank:before {
+.map-icon-bank:before {
 	content: "\e013";
 }
-.icon-car_rental:before {
+.map-icon-car-rental:before {
 	content: "\e016";
 }
-.icon-car_dealer:before {
+.map-icon-car-dealer:before {
 	content: "\e017";
 }
-.icon-hospital:before {
+.map-icon-hospital:before {
 	content: "\e018";
 }
-.icon-hair_care:before {
+.map-icon-hair-care:before {
 	content: "\e019";
 }
-.icon-gym:before {
+.map-icon-gym:before {
 	content: "\e01a";
 }
-.icon-grocery_or_supermarket:before {
+.map-icon-grocery-or-supermarket:before {
 	content: "\e01b";
 }
-.icon-general_contractor:before {
+.map-icon-general-contractor:before {
 	content: "\e01c";
 }
-.icon-pharmacy:before {
+.map-icon-pharmacy:before {
 	content: "\e01d";
 }
-.icon-point_of_interest:before {
+.map-icon-point-of-interest:before {
 	content: "\e01e";
 }
-.icon-political:before {
+.map-icon-political:before {
 	content: "\e01f";
 }
-.icon-post_box:before {
+.map-icon-post-box:before {
 	content: "\e020";
 }
-.icon-health:before {
+.map-icon-health:before {
 	content: "\e021";
 }
-.icon-post_office:before {
+.map-icon-post-office:before {
 	content: "\e022";
 }
-.icon-real_estate_agency-copy:before {
+.map-icon-real-estate-agency-copy:before {
 	content: "\e023";
 }
-.icon-hindu_temple:before {
+.map-icon-hindu-temple:before {
 	content: "\e024";
 }
-.icon-restaurant:before {
+.map-icon-restaurant:before {
 	content: "\e025";
 }
-.icon-female:before {
+.map-icon-female:before {
 	content: "\e026";
 }
-.icon-male:before {
+.map-icon-male:before {
 	content: "\e027";
 }
-.icon-zoo:before {
+.map-icon-zoo:before {
 	content: "\e028";
 }
-.icon-veterinary_care:before {
+.map-icon-veterinary-care:before {
 	content: "\e029";
 }
-.icon-car_repair:before {
+.map-icon-car-repair:before {
 	content: "\e02a";
 }
-.icon-university:before {
+.map-icon-university:before {
 	content: "\e02b";
 }
-.icon-travel_agency:before {
+.map-icon-travel-agency:before {
 	content: "\e02c";
 }
-.icon-transit_station:before {
+.map-icon-transit-station:before {
 	content: "\e02d";
 }
-.icon-beauty_salon:before {
+.map-icon-beauty-salon:before {
 	content: "\e02e";
 }
-.icon-electronics_store:before {
+.map-icon-electronics-store:before {
 	content: "\e02f";
 }
-.icon-search:before {
+.map-icon-search:before {
 	content: "\e030";
 }
-.icon-zoom-out-alt:before {
+.map-icon-zoom-out-alt:before {
 	content: "\e031";
 }
-.icon-movie_rental:before {
+.map-icon-movie-rental:before {
 	content: "\e032";
 }
-.icon-atm:before {
+.map-icon-atm:before {
 	content: "\e033";
 }
-.icon-jewelry_store:before {
+.map-icon-jewelry-store:before {
 	content: "\e034";
 }
-.icon-car_wash:before {
+.map-icon-car-wash:before {
 	content: "\e035";
 }
-.icon-unisex:before {
+.map-icon-unisex:before {
 	content: "\e036";
 }
-.icon-rv_park:before {
+.map-icon-rv-park:before {
 	content: "\e037";
 }
-.icon-school:before {
+.map-icon-school:before {
 	content: "\e038";
 }
-.icon-clothing_store:before {
+.map-icon-clothing-store:before {
 	content: "\e039";
 }
-.icon-laundry:before {
+.map-icon-laundry:before {
 	content: "\e03a";
 }
-.icon-casino:before {
+.map-icon-casino:before {
 	content: "\e03b";
 }
-.icon-place_of_worship:before {
+.map-icon-place-of-worship:before {
 	content: "\e03c";
 }
-.icon-furniture_store:before {
+.map-icon-furniture-store:before {
 	content: "\e03d";
 }
-.icon-zoom-in-alt:before {
+.map-icon-zoom-in-alt:before {
 	content: "\e03e";
 }
-.icon-zoom-in:before {
+.map-icon-zoom-in:before {
 	content: "\e03f";
 }
-.icon-department_store:before {
+.map-icon-department-store:before {
 	content: "\e040";
 }
-.icon-fire_station:before {
+.map-icon-fire-station:before {
 	content: "\e041";
 }
-.icon-church:before {
+.map-icon-church:before {
 	content: "\e042";
 }
-.icon-library:before {
+.map-icon-library:before {
 	content: "\e043";
 }
-.icon-shopping_mall:before {
+.map-icon-shopping-mall:before {
 	content: "\e044";
 }
-.icon-local_government:before {
+.map-icon-local-government:before {
 	content: "\e045";
 }
-.icon-spa:before {
+.map-icon-spa:before {
 	content: "\e046";
 }
-.icon-convenience_store:before {
+.map-icon-convenience-store:before {
 	content: "\e047";
 }
-.icon-police:before {
+.map-icon-police:before {
 	content: "\e048";
 }
-.icon-route:before {
+.map-icon-route:before {
 	content: "\e049";
 }
-.icon-zoom-out:before {
+.map-icon-zoom-out:before {
 	content: "\e04a";
 }
-.icon-location-arrow:before {
+.map-icon-location-arrow:before {
 	content: "\e04b";
 }
-.icon-postal_code:before {
+.map-icon-postal-code:before {
 	content: "\e04c";
 }
-.icon-locksmith:before {
+.map-icon-locksmith:before {
 	content: "\e04d";
 }
-.icon-doctor:before {
+.map-icon-doctor:before {
 	content: "\e04e";
 }
-.icon-mosque:before {
+.map-icon-mosque:before {
 	content: "\e04f";
 }
-.icon-stadium:before {
+.map-icon-stadium:before {
 	content: "\e050";
 }
-.icon-storage:before {
+.map-icon-storage:before {
 	content: "\e051";
 }
-.icon-movie_theater:before {
+.map-icon-movie-theater:before {
 	content: "\e052";
 }
-.icon-electrician:before {
+.map-icon-electrician:before {
 	content: "\e053";
 }
-.icon-moving_company:before {
+.map-icon-moving-company:before {
 	content: "\e054";
 }
-.icon-postal_code_prefix:before {
+.map-icon-postal-code-prefix:before {
 	content: "\e055";
 }
-.icon-crosshairs:before {
+.map-icon-crosshairs:before {
 	content: "\e056";
 }
-.icon-compass:before {
+.map-icon-compass:before {
 	content: "\e057";
 }
-.icon-dentist:before {
+.map-icon-dentist:before {
 	content: "\e058";
 }
-.icon-plumber:before {
+.map-icon-plumber:before {
 	content: "\e059";
 }
-.icon-museum:before {
+.map-icon-museum:before {
 	content: "\e05b";
 }
-.icon-finance:before {
+.map-icon-finance:before {
 	content: "\e05a";
 }
-.icon-parking:before {
+.map-icon-parking:before {
 	content: "\e05c";
 }
-.icon-courthouse:before {
+.map-icon-courthouse:before {
 	content: "\e05d";
 }
-.icon-accounting:before {
+.map-icon-accounting:before {
 	content: "\e05e";
 }
-.icon-store:before {
+.map-icon-store:before {
 	content: "\e05f";
 }
-.icon-subway_station:before {
+.map-icon-subway-station:before {
 	content: "\e060";
 }
-.icon-natural_feature:before {
+.map-icon-natural-feature:before {
 	content: "\e061";
 }
-.icon-florist:before {
+.map-icon-florist:before {
 	content: "\e062";
 }
-.icon-food:before {
+.map-icon-food:before {
 	content: "\e063";
 }
-.icon-night_club:before {
+.map-icon-night-club:before {
 	content: "\e064";
 }
-.icon-synagogue:before {
+.map-icon-synagogue:before {
 	content: "\e065";
 }
-.icon-taxi_stand:before {
+.map-icon-taxi-stand:before {
 	content: "\e066";
 }
-.icon-painter:before {
+.map-icon-painter:before {
 	content: "\e067";
 }
-.icon-train_station:before {
+.map-icon-train-station:before {
 	content: "\e068";
 }
-.icon-pet_store:before {
+.map-icon-pet-store:before {
 	content: "\e069";
 }
-.icon-gas_station:before {
+.map-icon-gas-station:before {
 	content: "\e06a";
 }
-.icon-funeral_home:before {
+.map-icon-funeral-home:before {
 	content: "\e06b";
 }
-.icon-cemetery:before {
+.map-icon-cemetery:before {
 	content: "\e06c";
 }
-.icon-bowling_alley:before {
+.map-icon-bowling-alley:before {
 	content: "\e06d";
 }
-.icon-roofing_contractor:before {
+.map-icon-roofing-contractor:before {
 	content: "\e06e";
 }
-.icon-physiotherapist:before {
+.map-icon-physiotherapist:before {
 	content: "\e06f";
 }
-.icon-embassy:before {
+.map-icon-embassy:before {
 	content: "\e070";
 }
-.icon-city_hall:before {
+.map-icon-city-hall:before {
 	content: "\e071";
 }
-.icon-bus_station:before {
+.map-icon-bus-station:before {
 	content: "\e072";
 }
-.icon-park:before {
+.map-icon-park:before {
 	content: "\e073";
 }
-.icon-lodging:before {
+.map-icon-lodging:before {
 	content: "\e074";
 }
-.icon-toilet:before {
+.map-icon-toilet:before {
 	content: "\e075";
 }
-.icon-circle:before {
+.map-icon-circle:before {
 	content: "\e076";
 }
-.icon-square-rounded:before {
+.map-icon-square-rounded:before {
 	content: "\e077";
 }
-.icon-square:before {
+.map-icon-square:before {
 	content: "\e078";
 }
-.icon-book_store:before {
+.map-icon-book-store:before {
 	content: "\e014";
 }
-.icon-cafe:before {
+.map-icon-cafe:before {
 	content: "\e015";
 }
-.icon-wheelchair:before {
+.map-icon-wheelchair:before {
 	content: "\e079";
 }
-.icon-volume-control-telephone:before {
+.map-icon-volume-control-telephone:before {
 	content: "\e07a";
 }
-.icon-sign-language:before {
+.map-icon-sign-language:before {
 	content: "\e07b";
 }
-.icon-low-vision-access:before {
+.map-icon-low-vision-access:before {
 	content: "\e07c";
 }
-.icon-open-captioning:before {
+.map-icon-open-captioning:before {
 	content: "\e07d";
 }
-.icon-closed-captioning:before {
+.map-icon-closed-captioning:before {
 	content: "\e07e";
 }
-.icon-braille:before {
+.map-icon-braille:before {
 	content: "\e07f";
 }
-.icon-audio-description:before {
+.map-icon-audio-description:before {
 	content: "\e080";
 }
-.icon-assistive-listening-system:before {
+.map-icon-assistive-listening-system:before {
 	content: "\e081";
 }
-.icon-abseiling:before {
+.map-icon-abseiling:before {
 	content: "\e082";
 }
-.icon-tennis:before {
+.map-icon-tennis:before {
 	content: "\e083";
 }
-.icon-skateboarding:before {
+.map-icon-skateboarding:before {
 	content: "\e084";
 }
-.icon-playground:before {
+.map-icon-playground:before {
 	content: "\e085";
 }
-.icon-inline-skating:before {
+.map-icon-inline-skating:before {
 	content: "\e086";
 }
-.icon-hang-gliding:before {
+.map-icon-hang-gliding:before {
 	content: "\e087";
 }
-.icon-climbing:before {
+.map-icon-climbing:before {
 	content: "\e088";
 }
-.icon-baseball:before {
+.map-icon-baseball:before {
 	content: "\e089";
 }
-.icon-archery:before {
+.map-icon-archery:before {
 	content: "\e08a";
 }
-.icon-wind-surfing:before {
+.map-icon-wind-surfing:before {
 	content: "\e08b";
 }
-.icon-scuba-diving:before {
+.map-icon-scuba-diving:before {
 	content: "\e08c";
 }
-.icon-sailing:before {
+.map-icon-sailing:before {
 	content: "\e08d";
 }
-.icon-marina:before {
+.map-icon-marina:before {
 	content: "\e08e";
 }
-.icon-canoe:before {
+.map-icon-canoe:before {
 	content: "\e08f";
 }
-.icon-boat-tour:before {
+.map-icon-boat-tour:before {
 	content: "\e090";
 }
-.icon-boat-ramp:before {
+.map-icon-boat-ramp:before {
 	content: "\e091";
 }
-.icon-swimming:before {
+.map-icon-swimming:before {
 	content: "\e092";
 }
-.icon-whale-watching:before {
+.map-icon-whale-watching:before {
 	content: "\e093";
 }
-.icon-waterskiing:before {
+.map-icon-waterskiing:before {
 	content: "\e094";
 }
-.icon-surfing:before {
+.map-icon-surfing:before {
 	content: "\e095";
 }
-.icon-rafting:before {
+.map-icon-rafting:before {
 	content: "\e096";
 }
-.icon-kayaking:before {
+.map-icon-kayaking:before {
 	content: "\e097";
 }
-.icon-jet-skiing:before {
+.map-icon-jet-skiing:before {
 	content: "\e099";
 }
-.icon-fishing-pier:before {
+.map-icon-fishing-pier:before {
 	content: "\e09a";
 }
-.icon-fish-cleaning:before {
+.map-icon-fish-cleaning:before {
 	content: "\e09b";
 }
-.icon-diving:before {
+.map-icon-diving:before {
 	content: "\e09c";
 }
-.icon-boating:before {
+.map-icon-boating:before {
 	content: "\e09d";
 }
-.icon-fishing:before {
+.map-icon-fishing:before {
 	content: "\e098";
 }
-.icon-cross-country-skiing:before {
+.map-icon-cross-country-skiing:before {
 	content: "\e09e";
 }
-.icon-skiing:before {
+.map-icon-skiing:before {
 	content: "\e09f";
 }
-.icon-snowmobile:before {
+.map-icon-snowmobile:before {
 	content: "\e0a0";
 }
-.icon-snowboarding:before {
+.map-icon-snowboarding:before {
 	content: "\e0a1";
 }
-.icon-snow:before {
+.map-icon-snow:before {
 	content: "\e0a2";
 }
-.icon-snow-shoeing:before {
+.map-icon-snow-shoeing:before {
 	content: "\e0a3";
 }
-.icon-sledding:before {
+.map-icon-sledding:before {
 	content: "\e0a4";
 }
-.icon-ski-jumping:before {
+.map-icon-ski-jumping:before {
 	content: "\e0a5";
 }
-.icon-ice-skating:before {
+.map-icon-ice-skating:before {
 	content: "\e0a6";
 }
-.icon-ice-fishing:before {
+.map-icon-ice-fishing:before {
 	content: "\e0a7";
 }
-.icon-chairlift:before {
+.map-icon-chairlift:before {
 	content: "\e0a8";
 }
-.icon-golf:before {
+.map-icon-golf:before {
 	content: "\e0a9";
 }
-.icon-horse-riding:before {
+.map-icon-horse-riding:before {
 	content: "\e0aa";
 }
-.icon-motobike-trail:before {
+.map-icon-motobike-trail:before {
 	content: "\e0ab";
 }
-.icon-trail-walking:before {
+.map-icon-trail-walking:before {
 	content: "\e0ac";
 }
-.icon-viewing:before {
+.map-icon-viewing:before {
 	content: "\e0ad";
 }
-.icon-walking:before {
+.map-icon-walking:before {
 	content: "\e0ae";
 }
-.icon-bicycling:before {
+.map-icon-bicycling:before {
 	content: "\e0af";
 }
