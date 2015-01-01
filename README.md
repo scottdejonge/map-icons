@@ -17,7 +17,7 @@ Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documen
 
 * MAP_PIN
 * SQUARE_PIN
-* SHEILD
+* SHIELD
 * ROUTE
 * ROUNDED
 

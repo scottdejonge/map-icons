@@ -11,7 +11,7 @@ window.onload = function() {
 			'map-icon-fullscreen' : '&#xe002;',
 			'map-icon-square-pin' : '&#xe003;',
 			'map-icon-route-pin' : '&#xe004;',
-			'map-icon-sheild' : '&#xe005;',
+			'map-icon-shield' : '&#xe005;',
 			'map-icon-liquor_store' : '&#xe006;',
 			'map-icon-bicycle_store' : '&#xe007;',
 			'map-icon-hardware_store' : '&#xe008;',
