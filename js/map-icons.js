@@ -26,11 +26,11 @@ var inherits = function(childCtor, parentCtor) {
 
 function Marker(options){
 	google.maps.Marker.apply(this, arguments);
-	if (options.label) {
+	if (options.custom_label) {
 		this.MarkerLabel = new MarkerLabel({
 			map: this.map,
 			marker: this,
-			text: options.label
+			text: options.custom_label
 		});
 		this.MarkerLabel.bindTo('position', this, 'position');
 	}
