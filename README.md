@@ -1,7 +1,7 @@
 Map-Icons
 =========
 
-Version 2.1
+Version 2.2
 
 Website: <http://map-icons.com/>
 
@@ -40,7 +40,7 @@ var marker = new Marker({
 		strokeWeight: 0,
 		scale: 1/2
 	},
-	label: '<i class="map-icon-parking"></i>'
+	custom_label: '<i class="map-icon-parking"></i>'
 });
 ```
 
@@ -63,6 +63,10 @@ var marker = new Marker({
 ```
 
 ##Changelog
+
+#### Version 2.2
+
+* Updated `label` field to `custom_label` @see: https://github.com/scottdejonge/Map-Icons/issues/26
 
 #### Version 2.1
 
