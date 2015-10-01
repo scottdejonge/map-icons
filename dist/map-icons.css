@@ -22,6 +22,21 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.marker-label,
+.marker-icon {
+	z-index: 99;
+	position: absolute;
+	display: block;
+	margin-top: -50px;
+	margin-left: -25px;
+	width: 50px;
+	height: 50px;
+	font-size: 30px !important;
+	text-align: center;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+
 /* Use the following CSS code if you want to have a class per icon */
 /*
 Instead of a list of all class selectors,
