@@ -19,8 +19,9 @@ function createMap() {
 
 	// Map Options		
 	var mapOptions = {
-		zoom: 12,
+		zoom: 11,
 		center: center,
+		scrollwheel: false,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		styles: [
 			{stylers: [{ visibility: 'simplified' }]},
@@ -30,23 +31,6 @@ function createMap() {
 	
 	// Create the Map
 	map = new google.maps.Map(mapCanvas, mapOptions);
-	
-	// Create the Marker
-	var marker = new Marker({
-		map: map,
-		title: 'Map Icons',
-		position: center,
-		zIndex: 9,
-		icon: {
-			path: SQUARE_PIN,
-			fillColor: '#428BCA',
-			fillOpacity: 1,
-			strokeColor: '',
-			strokeWeight: 0,
-			scale: 1/2
-		},
-		label: '<i class="map-icon-male"></i>'
-	});
 
 	var marker1 = new Marker({
 		map: map,
