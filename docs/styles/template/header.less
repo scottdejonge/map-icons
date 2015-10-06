@@ -1,13 +1,15 @@
 .header {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	text-align: center;
-	background: @secondary;
+	background: @tertiary;
 
 	h1,
-	p,
-	a {
+	p {
 		color: @white;
+	}
+
+	a:not(.button) {
+		color: @primary;
 	}
 
 	h1 {
@@ -15,9 +17,8 @@
 	}
 
 	p {
-		.center-block();
 		.medium-font();
-		max-width: 600px;
+		max-width: @max-width-small;
 	}
 
 	.button + .button {
