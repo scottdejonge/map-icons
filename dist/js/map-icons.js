@@ -1,7 +1,7 @@
 /**
  * Map Icons created by Scott de Jonge
  *
- * @version 2.1
+ * @version 3.0.0
  * @url http://map-icons.com
  *
  */
@@ -16,16 +16,17 @@ var ROUNDED = 'M50-80c0-11-9-20-20-20h-60c-11 0-20 9-20 20v60c0 11 9 20 20 20h60
 // Function to do the inheritance properly
 // Inspired by: http://stackoverflow.com/questions/9812783/cannot-inherit-google-maps-map-v3-in-my-custom-class-javascript
 var inherits = function(childCtor, parentCtor) {
-   /** @constructor */
-   function tempCtor() {};
-   tempCtor.prototype = parentCtor.prototype;
-   childCtor.superClass_ = parentCtor.prototype;
-   childCtor.prototype = new tempCtor();
-   childCtor.prototype.constructor = childCtor;
+	/** @constructor */
+	function tempCtor() {};
+	tempCtor.prototype = parentCtor.prototype;
+	childCtor.superClass_ = parentCtor.prototype;
+	childCtor.prototype = new tempCtor();
+	childCtor.prototype.constructor = childCtor;
 };
 
 function Marker(options){
 	google.maps.Marker.apply(this, arguments);
+
 	if (options.custom_label) {
 		this.MarkerLabel = new MarkerLabel({
 			map: this.map,
@@ -69,31 +70,34 @@ MarkerLabel.prototype = new google.maps.OverlayView;
 
 // Marker Label onAdd
 MarkerLabel.prototype.onAdd = function() {
-     var pane = this.getPanes().overlayImage.appendChild(this.div);
-     var self = this;
-     this.listeners = [
-          google.maps.event.addListener(this, 'position_changed', function() { self.draw(); }),
-          google.maps.event.addListener(this, 'text_changed', function() { self.draw(); }),
-          google.maps.event.addListener(this, 'zindex_changed', function() { self.draw(); })
-     ];
+	var pane = this.getPanes().overlayImage.appendChild(this.div);
+	var self = this;
+
+	this.listeners = [
+		google.maps.event.addListener(this, 'position_changed', function() { self.draw(); }),
+		google.maps.event.addListener(this, 'text_changed', function() { self.draw(); }),
+		google.maps.event.addListener(this, 'zindex_changed', function() { self.draw(); })
+	];
 };
  
 // Marker Label onRemove
 MarkerLabel.prototype.onRemove = function() {
-     this.div.parentNode.removeChild(this.div);
-     for (var i = 0, I = this.listeners.length; i < I; ++i) {
-          google.maps.event.removeListener(this.listeners[i]);
-     }
+	this.div.parentNode.removeChild(this.div);
+
+	for (var i = 0, I = this.listeners.length; i < I; ++i) {
+		google.maps.event.removeListener(this.listeners[i]);
+	}
 };
  
 // Implement draw
 MarkerLabel.prototype.draw = function() {
-     var projection = this.getProjection();
-     var position = projection.fromLatLngToDivPixel(this.get('position'));
-     var div = this.div;
-     div.style.left = position.x + 'px';
-     div.style.top = position.y + 'px';
-     div.style.display = 'block';
-     div.style.zIndex = this.get('zIndex'); //ALLOW LABEL TO OVERLAY MARKER
-     this.div.innerHTML = this.get('text').toString();
+	var projection = this.getProjection();
+	var position = projection.fromLatLngToDivPixel(this.get('position'));
+	var div = this.div;
+
+	div.style.left = position.x + 'px';
+	div.style.top = position.y + 'px';
+	div.style.display = 'block';
+	div.style.zIndex = this.get('zIndex'); // Allow label to overlay marker
+	this.div.innerHTML = this.get('text').toString();
 };
