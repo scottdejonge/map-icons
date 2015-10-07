@@ -26,7 +26,7 @@ function initialise() {
 		position:  new google.maps.LatLng(-27.46577, 153.02303),
 		icon: {
 			path: SQUARE_PIN,
-			fillColor: '#6331AE',
+			fillColor: '#00CCBB',
 			fillOpacity: 1,
 			strokeColor: '',
 			strokeWeight: 0
@@ -41,7 +41,7 @@ function initialise() {
 		position:  new google.maps.LatLng(-27.46617, 153.01865),
 		icon: {
 			path: ROUTE,
-			fillColor: '#6331AE',
+			fillColor: '#1998F7',
 			fillOpacity: 1,
 			strokeColor: '',
 			strokeWeight: 0
@@ -86,7 +86,7 @@ function initialise() {
 		position:  new google.maps.LatLng(-27.46904, 153.02754),
 		icon: {
 			path: SQUARE,
-			fillColor: '#6331AE',
+			fillColor: '#00CCBB',
 			fillOpacity: 1,
 			strokeColor: '',
 			strokeWeight: 0
