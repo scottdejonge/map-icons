@@ -21,8 +21,6 @@ function initialise() {
 
 	var marker1 = new Marker({
 		map: map,
-		zIndex: 10,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46577, 153.02303),
 		icon: {
 			path: SQUARE_PIN,
@@ -36,8 +34,6 @@ function initialise() {
 	
 	var marker2 = new Marker({
 		map: map,
-		zIndex: 20,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46617, 153.01865),
 		icon: {
 			path: ROUTE,
@@ -51,8 +47,6 @@ function initialise() {
 	
 	var marker3 = new Marker({
 		map: map,
-		zIndex: 30,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46870, 153.02335),
 		icon: {
 			path: MAP_PIN,
@@ -66,8 +60,6 @@ function initialise() {
 	
 	var marker4 = new Marker({
 		map: map,
-		zIndex: 40,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46900, 153.02009),
 		icon: {
 			path: SQUARE_ROUNDED,
@@ -81,8 +73,6 @@ function initialise() {
 	
 	var marker5 = new Marker({
 		map: map,
-		zIndex: 40,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46904, 153.02754),
 		icon: {
 			path: SQUARE,
@@ -96,8 +86,6 @@ function initialise() {
 	
 	var marker6 = new Marker({
 		map: map,
-		zIndex: 40,
-		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.47167, 153.02580),
 		icon: {
 			path: SHIELD,
