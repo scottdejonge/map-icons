@@ -3,9 +3,9 @@ Map-Icons
 
 Version 2.2
 
-Website: <http://map-icons.com/>
+Website: <http://scottdejonge.github.io/Map-Icons/>
 
-Demo: <http://map-icons.com/demo.html>
+Demo: <http://scottdejonge.github.io/Map-Icons/demo.html>
 
 ##Summary
 
@@ -94,8 +94,6 @@ var marker = new Marker({
 * Initial Commit
 
 ##Author
-
-Email: <scott@map-icons.com>
 
 Twitter: [@scottdejonge](http://twitter.com/scottdejonge)
 
