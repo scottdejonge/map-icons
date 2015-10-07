@@ -1,0 +1,27 @@
+.header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: @tertiary;
+
+	h1,
+	p {
+		color: @white;
+	}
+
+	a:not(.button) {
+		color: @primary;
+	}
+
+	h1 {
+		.font-size(4.2);
+	}
+
+	p {
+		.medium-font();
+		max-width: @max-width-small;
+	}
+
+	.button + .button {
+		margin-left: 10px;
+	}
+}

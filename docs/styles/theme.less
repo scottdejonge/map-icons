@@ -1,0 +1,882 @@
+/*
+ * Global
+ */
+
+// Border Radius
+@border-radius: 6px;
+
+// Z-Index
+@z-index-high: 999;
+@z-index-medium: 99;
+@z-index-low: 9;
+
+// Animation
+@animation-fast: 0.5s;
+@animation-medium: 1s;
+@animation-slow: 2s;
+
+// Transition
+@transition-fast: 0.2s;
+@transition-medium: 0.3s;
+@transition-slow: 0.5s;
+
+// Height
+@height-xlarge: 65px;
+@height-large: 50px;
+@height-medium: 40px;
+@height-small: 30px;
+@height-xsmall: 20px;
+
+// Margin
+@margin-xlarge: 100px;
+@margin-large: 65px;
+@margin-medium: 50px;
+@margin-small: 35px;
+@margin-xsmall: 20px;
+
+// Padding
+@padding-xlarge: 100px;
+@padding-large: 65px;
+@padding-medium: 50px;
+@padding-small: 35px;
+@padding-xsmall: 20px;
+
+// Max Width
+@max-width-xlarge: 960px;
+@max-width-large: 800px;
+@max-width-medium: 640px;
+@max-width-small: 500px;
+@max-width-xsmall: 300px;
+
+
+/*
+ * Body
+ */
+
+// Body
+@body-font-family: @regular-font-family;
+@body-font-weight: @regular-font-weight; 
+@body-color: @dark;
+@body-line-height: @line-height-medium;
+@body-background: @white;
+
+
+/*
+ * Colors
+ */
+
+//Shades
+@white: #FFFFFF;
+@black: #000000;
+@light-grey: #DBE0E4;
+@grey: #4B6370;
+@dark-grey: #2A2829;
+
+//Indicators
+@info: #149CFD;
+@error: #E01A2E;
+@warning: #FFC200;
+@success: #05BE55;
+
+//Palette
+@light: #FAFAFC;
+@dark: @dark-grey;
+@primary: #00CCBB;
+@secondary: #0196FA;
+@tertiary: #642BB1;
+
+//Utility
+@inverse: @dark;
+
+
+/*
+ * Font
+ */
+
+// Fonts
+@font-path: '/assets/fonts';
+@sans-serif-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serif-font-family: Georgia, "Times New Roman", Times, serif;
+@monospace-font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+
+// Generic Font Families
+@thin-font-family: 'Source Sans Pro', @sans-serif-font-family;
+@regular-font-family: 'Source Sans Pro', @sans-serif-font-family;
+@medium-font-family: 'Source Sans Pro', @sans-serif-font-family;
+@semibold-font-family: 'Source Sans Pro', @sans-serif-font-family;
+@bold-font-family: 'Source Sans Pro', @sans-serif-font-family;
+
+// Generic Font Weights
+@thin-font-weight: 300;
+@regular-font-weight: 400;
+@medium-font-weight: 600;
+@semibold-font-weight: 700;
+@bold-font-weight: 900;
+
+// Base Font Size
+@base-font-size: 10px;
+@base-font-size-xlarge: @base-font-size;
+@base-font-size-large: @base-font-size;
+@base-font-size-medium: @base-font-size;
+@base-font-size-small: @base-font-size;
+@base-font-size-xsmall: @base-font-size;
+
+// Font Sizes
+@font-size-xlarge: 2.4;
+@font-size-large: 1.8;
+@font-size-medium: 1.6;
+@font-size-small: 1.3;
+@font-size-xsmall: 1;
+
+// Line height
+@line-height-xlarge: 1.75;
+@line-height-large: 1.5;
+@line-height-medium: 1.35;
+@line-height-small: 1.2;
+@line-height-xsmall: 1;
+
+
+/*
+ * Link
+ */
+
+// Link
+@link-color: @secondary;
+@link-text-decoration: none;
+
+// Link Hover
+@link-hover-color: @tertiary;
+@link-hover-decoration: none;
+
+
+/*
+ * Breakpoints
+ */
+
+// Screen Sizes
+@screen-xsmall: 480px;
+@screen-xsmall-max: (@screen-small-min - 1);
+@screen-small: 768px;
+@screen-small-min: @screen-small;
+@screen-small-max: (@screen-medium-min - 1);
+@screen-medium: 1024px;
+@screen-medium-min: @screen-medium;
+@screen-medium-max: (@screen-large-min - 1);
+@screen-large: 1280px;
+@screen-large-min: @screen-large;
+@screen-large-max: (@screen-xlarge-min - 1);
+@screen-xlarge: 1680px;
+@screen-xlarge-min: @screen-xlarge;
+
+
+/*
+ * Headings
+ */
+
+// Headings
+@headings-margin: 0px 0px 20px 0px;
+@headings-font-family: @medium-font-family;
+@headings-font-weight: @medium-font-weight;
+@headings-color: @body-color;
+@headings-line-height: 1.1;
+
+// Headings Small
+@headings-small-font-family: @medium-font-family;
+@headings-small-size: 0.6em;
+@headings-small-color: @grey;
+
+// Heading Font Sizes
+@h1-font-size: 3.2;
+@h2-font-size: 2.4;
+@h3-font-size: 1.8;
+@h4-font-size: 1.4;
+@h5-font-size: 1.2;
+@h6-font-size: 1;
+
+
+/*
+ * Strong
+ */
+
+// Strong
+@strong-font-family: @semibold-font-family;
+@strong-font-weight: @semibold-font-weight;
+
+
+/*
+ * Emphasis
+ */
+
+// Emphasis
+@em-font-style: italic;
+
+
+/*
+ * Paragraph
+ */
+
+// Paragraph
+@paragraph-margin: 20px 0px;
+@paragraph-font-family: @regular-font-family;
+@paragraph-font-weight: @regular-font-weight;
+@paragraph-font-size: @font-size-medium;
+@paragraph-color: @body-color;
+@paragraph-line-height: @line-height-medium;
+
+
+/*
+ * Lead
+ */
+
+// Lead
+@lead-margin: 0px 0px 20px 0px;
+@lead-font-family: @regular-font-family;
+@lead-font-weight: @regular-font-weight;
+@lead-font-size: 2;
+@lead-color: @body-color;
+@lead-line-height: @line-height-medium;
+
+
+/*
+ * Horizontal Rule
+ */
+
+// Horizontal Rule
+@hr-margin: 35px auto;
+@hr-height: 1px;
+@hr-background: @light-grey;
+
+
+/*
+ * Blockquote
+ */
+
+// Blockquote
+@blockquote-margin: 35px 0px;
+@blockquote-padding: 0px 30px;
+
+// Blockquote Quote
+@blockquote-quote-margin: 0;
+@blockquote-quote-font-family: @lead-font-family;
+@blockquote-quote-font-weight: @lead-font-weight;
+@blockquote-quote-font-size: @lead-font-size;
+@blockquote-quote-font-style: normal;
+@blockquote-quote-line-height: @line-height-medium;
+@blockquote-quote-color: @primary;
+
+// Blockquote Cite
+@blockquote-cite-margin: 10px 0px;
+@blockquote-cite-font-family: @regular-font-family;
+@blockquote-cite-font-weight: @regular-font-family;
+@blockquote-cite-font-size: @font-size-medium;
+@blockquote-cite-font-style: normal;
+@blockquote-cite-color: @blockquote-quote-color;
+@blockquote-cite-text-align: right;
+
+
+/*
+ * Pullout
+ */
+
+// Pullout
+@pullout-margin: @blockquote-margin;
+@pullout-padding: @blockquote-padding;
+@pullout-font-family: @blockquote-quote-font-family;
+@pullout-font-weight: @blockquote-quote-font-weight;
+@pullout-font-size: @blockquote-quote-font-size;
+@pullout-border: solid @primary;
+@pullout-border-width:  0px 0px 0px 5px;
+
+
+/*
+ * List
+ */
+
+// List
+@list-margin: 20px 0px;
+@list-padding: 0;
+
+// Lists Item
+@list-item-margin: 10px 0px 10px 20px;
+@list-item-font-family: @paragraph-font-family;
+@list-item-font-weight: @paragraph-font-weight;
+@list-item-font-size: @paragraph-font-size;
+@list-item-color: @paragraph-color;
+
+// Child List
+@child-list-margin: 10px 0px;
+@child-list-padding: 0;
+@child-list-item-margin: @list-item-margin;
+
+// Unordered List
+@unordered-list-icon: disc;
+@unordered-child-list-icon: disc;
+
+
+/*
+ * Definition List
+ */
+
+// Definition List
+@definition-list-margin: @list-margin;
+@definition-list-padding: 0;
+
+// Definition Term
+@definition-term-margin: 10px 0px;
+@definition-term-font-family: @medium-font-family;
+@definition-term-font-weight: @medium-font-weight;
+@definition-term-font-size: @font-size-medium;
+@definition-term-color: @paragraph-color;
+
+// Definition Description
+@definition-description-margin: 0px 0px 20px 0px;
+@definition-description-font-family: @regular-font-family;
+@definition-description-font-weight: @regular-font-weight;
+@definition-description-font-size: @font-size-medium;
+@definition-description-color: @paragraph-color;
+
+
+/*
+ * Code
+ */
+
+// Code
+@code-font-family: @monospace-font-family;
+@code-font-weight: normal;
+@code-font-size: 1.2;
+@code-color: @tertiary;
+
+
+/*
+ * Pre
+ */
+
+// Pre
+@pre-margin: 20px 0px;
+@pre-padding: 10px;
+@pre-color: @body-color;
+@pre-tab-size: 4;
+@pre-hyphens: none;
+@pre-line-height: @line-height-medium;
+@pre-background: @light;
+@pre-border: 1px solid @light-grey;
+
+// Pre Code
+@pre-code-color: @code-color;
+
+
+/*
+ * Kbd
+ */
+
+// Kbd
+@kbd-margin: 0px 5px;
+@kbd-padding: 4px;
+@kbd-font-family: @code-font-family;
+@kbd-font-weight: @code-font-weight;
+@kbd-font-size: @code-font-size;
+@kbd-color: @code-color;
+@kbd-background: @pre-background;
+@kbd-border: @pre-border;
+
+
+/*
+ * Container
+ */
+
+// Container
+@container-xsmall: 100%;
+@container-small: 100%;
+@container-medium: 1024px;
+@container-large: 1280px;
+@container-xlarge: 1680px;
+
+
+/*
+ * Gutter
+ */
+
+// Gutter
+@gutter: 15px;
+@gutter-xlarge: @gutter;
+@gutter-large: @gutter;
+@gutter-medium: @gutter;
+@gutter-small: @gutter;
+@gutter-xsmall: @gutter;
+
+
+/*
+ * Label
+ */
+
+// Label
+@label-margin: 20px 0px;
+@label-font-family: @medium-font-family;
+@label-font-weight: @medium-font-weight;
+@label-font-size: @font-size-small;
+@label-color: @dark;
+@label-line-height: @line-height-medium;
+
+
+/*
+ * Fieldset
+ */
+
+// Fieldset
+@fieldset-margin: 0;
+@fieldset-padding: 20px;
+@fieldset-border: 1px solid @grey;
+
+// Feildset Legend
+@fieldset-legend-padding: 10px;
+@fieldset-legend-font-size: @font-size-medium;
+@fieldset-legend-color: @grey;
+
+
+/*
+ * Form Message
+ */
+
+// Form Message
+@form-message-margin: @label-margin;
+@form-message-font-family: @paragraph-font-family;
+@form-message-font-weight: @paragraph-font-weight;
+@form-message-font-size: 1.2;
+@form-message-color: @body-color;
+@form-message-line-height: @paragraph-line-height;
+
+// Form Message Indicators
+@form-message-error-color: @error;
+@form-message-warning-color: @warning;
+@form-message-success-color: @success;
+@form-message-info-color: @info;
+
+
+/*
+ * Input
+ */
+
+// Input
+@input-height: @height-medium;
+@input-margin: @label-margin;
+@input-padding: 0 16px;
+@input-color: @body-color;
+@input-font-family: @regular-font-family;
+@input-font-weight: @regular-font-weight;
+@input-font-size: @font-size-medium;
+@input-line-height: @line-height-medium;
+@input-background: @white;
+@input-border: 1px solid @light-grey;
+@input-border-radius: @border-radius;
+
+// Input Focus
+@input-focus-color: @input-color;
+@input-focus-background: darken(@input-background, 2%);
+@input-focus-border: 1px solid darken(@light-grey, 10%);
+
+// Input Placeholder
+@input-placeholder-font-family: @input-font-family;
+@input-placeholder-font-size: @input-font-size;
+@input-placeholder-color: fade(@input-color, 50%);
+@input-placeholder-line-height: @input-line-height;
+@input-placeholder-letter-spacing: 0px;
+@input-placeholder-text-transform: none;
+
+// Input Inverse
+@input-inverse-color: @white;
+@input-inverse-background: @inverse;
+@input-inverse-border: none;
+@input-inverse-focus-color: @input-inverse-color;
+@input-inverse-focus-background: darken(@input-inverse-background, 2%);
+@input-inverse-focus-border: @input-inverse-border;
+
+// Input Disabled
+@input-disabled-color: @light;
+@input-disabled-background: @light;
+@input-disabled-border: 1px solid darken(@light, 10%);
+
+// Input Search
+@input-search-border-radius: 20px;
+
+// Textarea
+@textarea-padding: 12px 16px;
+@textarea-line-height: @line-height-medium;
+
+
+/*
+ * Input Indicators
+ */
+
+// Indicators
+@input-error-color: @error;
+@input-warning-color: @warning;
+@input-success-color: @success;
+@input-info-color: @info;
+
+
+/*
+ * Input Sizes
+ */
+
+// Input Extra Large
+@input-xlarge-padding: 0 30px;
+@input-xlarge-height: @height-xlarge;
+@input-xlarge-font-size: @font-size-xlarge;
+
+// Input Large
+@input-large-padding: 0 25px;
+@input-large-height: @height-large;
+@input-large-font-size: @font-size-large;
+
+// Input Medium
+@input-medium-padding: 0 16px;
+@input-medium-height: @input-height;
+@input-medium-font-size: @input-font-size;
+
+// Input Small
+@input-small-padding: 0 12px;
+@input-small-height: @height-small;
+@input-small-font-size: @font-size-small;
+
+// Input Extra Small
+@input-xsmall-padding: 0 8px;
+@input-xsmall-height: @height-xsmall;
+@input-xsmall-font-size: @font-size-xsmall;
+
+
+/*
+ * Control
+ */
+
+// Control
+@control-margin: @label-margin;
+@control-padding: 0px 0px 0px 1.5em;
+@control-color: @input-color;
+
+// Control Indicator
+@control-indicator-size: 16px;
+@control-indicator-color: @primary;
+@control-indicator-background: @input-background;
+@control-indicator-border: @input-border;
+
+// Control Checked
+@control-indicator-checked-background: @primary;
+@control-indicator-checked-border: 1px solid @primary;
+@control-label-checked-color: @control-label-color;
+
+// Control Label
+@control-label-margin: 0px 0px 0px 10px;
+@control-label-font-family: @label-font-family;
+@control-label-font-size: @label-font-size;
+@control-label-color: @label-color;
+@control-label-line-height: 1.5;
+
+// Control Inline
+@control-inline-margin-right: 20px;
+
+// Checkbox
+@checkbox-border-radius: none;
+
+// Radio
+@radio-border-radius: 50%;
+
+
+/*
+ * Select
+ */
+
+// Select
+@select-margin: @input-margin;
+@select-padding: @input-padding;
+@select-height: @input-height;
+@select-font-family: @input-font-family;
+@select-font-weight: @input-font-weight;
+@select-font-size: @input-font-size;
+@select-color: @input-color;
+@select-background: @input-background;
+@select-border: @input-border;
+@select-border-radius: @border-radius;
+
+// Select Arrow
+@select-arrow-size: 5px;
+@select-arrow-background: @dark;
+
+// Select Inverse
+@select-inverse-color: @input-inverse-color;
+@select-inverse-border: @input-inverse-border;
+@select-inverse-background: @input-inverse-background;
+@select-inverse-arrow-background: @white;
+
+
+/*
+ * Select Sizes
+ */
+
+// Select Extra Large
+@select-xlarge-padding: @input-xlarge-padding;
+@select-xlarge-height: @input-xlarge-height;
+@select-xlarge-font-size: @input-xlarge-font-size;
+
+// Select Large
+@select-large-padding: @input-large-padding;
+@select-large-height: @input-large-height;
+@select-large-font-size: @input-large-font-size;
+
+// Select Medium
+@select-medium-padding: @select-padding;
+@select-medium-height: @select-height;
+@select-medium-font-size: @select-font-size;
+
+// Select Small
+@select-small-padding: @input-small-padding;
+@select-small-height: @input-small-height;
+@select-small-font-size: @input-small-font-size;
+
+// Select Extra Small
+@select-xsmall-padding: @input-xsmall-padding;
+@select-xsmall-height: @input-xsmall-height;
+@select-xsmall-font-size: @input-xsmall-font-size;
+
+
+/*
+ * Button
+ */
+
+// Button
+@button-padding: 12px 16px;
+@button-height: @height-medium;
+@button-font-family: @medium-font-family;
+@button-font-weight: @medium-font-weight;
+@button-font-size: @font-size-medium;
+@button-color: @dark-grey;
+@button-line-height: 1;
+@button-text-align: center;
+@button-text-transform: none;
+@button-background: @white;
+@button-border: 1px solid @light-grey;
+@button-border-radius: @border-radius;
+
+// Button Hover
+@button-hover-color: @dark-grey;
+@button-hover-background: darken(@button-background, 10%);
+@button-hover-border: 1px solid darken(@light-grey, 10%);
+
+
+/*
+ * Button Disabled
+ */
+
+// Button Disabled
+@button-disabled-opacity: 0.5;
+
+
+/*
+ * Button Block
+ */
+
+// Button Block
+@button-block-text-align: center;
+
+
+/*
+ * Button Styles
+ */
+
+// Button Inverse
+@button-inverse-color: @light;
+@button-inverse-background: @inverse;
+@button-inverse-border: none;
+@button-inverse-hover-color: @button-inverse-color;
+@button-inverse-hover-background: darken(@button-inverse-background, 10%);
+@button-inverse-hover-border: none;
+
+// Button Primary
+@button-primary-color: @white;
+@button-primary-background: @primary;
+@button-primary-border: none;
+@button-primary-hover-color: @button-primary-color;
+@button-primary-hover-background: darken(@primary, 10%);
+@button-primary-hover-border: none;
+
+// Button Secondary
+@button-secondary-color: @white;
+@button-secondary-background: @secondary;
+@button-secondary-border: none;
+@button-secondary-hover-color: @button-secondary-color;
+@button-secondary-hover-background: darken(@secondary, 10%);
+@button-secondary-hover-border: none;
+
+// Button Tertiary
+@button-tertiary-color: @white;
+@button-tertiary-background: @tertiary;
+@button-tertiary-border: none;
+@button-tertiary-hover-color: @button-tertiary-color;
+@button-tertiary-hover-background: darken(@tertiary, 10%);
+@button-tertiary-hover-border: none;
+
+// Button Border
+@button-border-color: @dark;
+@button-border-border: 1px solid @button-border-color;
+@button-border-background: transparent;
+@button-border-hover-color: @white;
+@button-border-hover-border: 1px solid @button-border-color;
+@button-border-hover-background: @button-border-color;
+
+// Button Text
+@button-text-color: @dark;
+@button-text-hover-color: @primary;
+
+
+/*
+ * Button Indicators
+ */
+
+// Button Error
+@button-error-color: @white;
+@button-error-background: @error;
+@button-error-border: none;
+@button-error-hover-color: @button-error-color;
+@button-error-hover-background: darken(@error, 10%);
+@button-error-hover-border: none;
+
+// Button Warning
+@button-warning-color: @white;
+@button-warning-background: @warning;
+@button-warning-border: none;
+@button-warning-hover-color: @button-warning-color;
+@button-warning-hover-background: darken(@warning, 10%);
+@button-warning-hover-border: none;
+
+// Button Success
+@button-success-color: @white;
+@button-success-background: @success;
+@button-success-border: none;
+@button-success-hover-color: @button-success-color;
+@button-success-hover-background: darken(@success, 10%);
+@button-success-hover-border: none;
+
+// Button Info
+@button-info-color: @white;
+@button-info-background: @info;
+@button-info-border: none;
+@button-info-hover-color: @button-info-color;
+@button-info-hover-background: darken(@button-info-background, 10%);
+@button-info-hover-border: none;
+
+
+/*
+ * Button Sizes
+ */
+
+// Button Extra Large
+@button-xlarge-padding: 20px 30px;
+@button-xlarge-height: @height-xlarge;
+@button-xlarge-font-size: @font-size-xlarge;
+
+// Button Large
+@button-large-padding: 15px 25px;
+@button-large-height: @height-large;
+@button-large-font-size: @font-size-large;
+
+// Button Medium
+@button-medium-padding: @button-padding;
+@button-medium-height: @button-height;
+@button-medium-font-size: @button-font-size;
+
+// Button Small
+@button-small-padding: 8px 12px;
+@button-small-height: @height-small;
+@button-small-font-size: @font-size-small;
+
+// Button Extra Small
+@button-xsmall-padding: 4px 8px;
+@button-xsmall-height: @height-xsmall;
+@button-xsmall-font-size: @font-size-xsmall;
+
+
+/*
+ * Figure
+ */
+
+// Figure
+@figure-display: block;
+@figure-margin: 0;
+@figure-padding: 10px;
+@figure-border: 1px solid @light-grey;
+
+// Figure Caption
+@figure-caption-margin: 10px 0px;
+@figure-caption-font-family: @paragraph-font-family;
+@figure-caption-font-weight: @paragraph-font-weight;
+@figure-caption-font-size: @paragraph-font-size;
+@figure-caption-color: @body-color;
+@figure-caption-text-align: center;
+
+
+/*
+ * Media
+ */
+
+// Media
+@media-background: @light;
+
+
+/*
+ * Nav
+ */
+
+// Nav
+@nav-list-margin: 0;
+@nav-item-margin: 10px 0px;
+
+// Nav Inline
+@nav-inline-item-margin: 0px 10px;
+
+
+/*
+ * Table
+ */
+
+// Table
+@table-background: none;
+@table-border-radius: @border-radius;
+
+// Table Caption
+@table-caption-margin: 5px 10px;
+@table-caption-font-family: @medium-font-family;
+@table-caption-font-weight: @medium-font-weight;
+@table-caption-font-size: @font-size-medium;
+@table-caption-color: @body-color;
+@table-caption-text-align: left;
+
+// Table Head
+@table-head-padding: @padding-xsmall @padding-small;
+@table-head-font-family: @medium-font-family;
+@table-head-font-weight: @medium-font-weight;
+@table-head-font-size: @font-size-small;
+@table-head-text-align: left;
+@table-head-text-transform: none;
+@table-head-color: @body-color;
+
+// Table Body
+@table-cell-padding: @padding-xsmall @padding-small;
+@table-cell-font-family: @paragraph-font-family;
+@table-cell-font-weight: @paragraph-font-weight;
+@table-cell-font-size: @paragraph-font-size;
+@table-cell-color: @body-color;
+@table-cell-line-height: @line-height-medium;
+@table-cell-vertical-align: middle;
+
+// Table Border
+@table-border: solid @light-grey;
+@table-border-width: 1px;
+
+// Table Block
+@table-block-head-background: @light;
+
+// Table Reponsive
+@table-responsive-breakpoint: @small-down;
+@table-responsive-row-margin: 20px 0px;
+@table-responsive-cell-padding: 10px;
+@table-responsive-border: solid @light;
+@table-responsive-border-width: 1px;

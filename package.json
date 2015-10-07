@@ -1,0 +1,26 @@
+{
+  "name": "map-icons",
+  "description": "An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels",
+  "version": "3.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottdejonge/Map-Icons.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bigfishtv-turret": "^3.1.0",
+    "less": "^2.5.1",
+    "less-plugin-autoprefix": "^1.5.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "watch": "^0.13.0",
+    "clean-css": "^3.4.5",
+    "uglify-js": " ^2.4.23"
+  },
+  "scripts": {
+    "docs:watch": "watch \"npm run docs:build\" \"docs/styles\"",
+    "docs:build": "lessc --include-path=\"node_modules/bigfishtv-turret\" docs/styles/main.less --clean-css --autoprefix > docs/css/main.css",
+    "dist:css": "cleancss -o dist/css/map-icons.min.css dist/css/map-icons.css",
+    "dist:js": "uglifyjs dist/js/map-icons.js -o dist/js/map-icons.min.js",
+    "dist": "npm run dist:css & npm run dist:js"
+  }
+}

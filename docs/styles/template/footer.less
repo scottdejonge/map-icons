@@ -1,0 +1,20 @@
+.footer {
+	padding-top: @padding-small;
+	padding-bottom: @padding-small;
+	background: @tertiary;
+	text-align: center;
+
+	p {
+		.medium-font();
+		color: @light;
+	}
+
+	a {
+		color: @primary;
+
+		&:hover,
+		&:focus {
+			color: @secondary;
+		}
+	}
+}

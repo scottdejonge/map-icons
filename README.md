@@ -1,120 +1,112 @@
-Map-Icons
+Map Icons
 =========
-
-Version 2.2
-
-Website: <http://scottdejonge.github.io/Map-Icons/>
-
-Demo: <http://scottdejonge.github.io/Map-Icons/demo.html>
-
-##Summary
 
 Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels
 
 Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documentation/javascript/reference#Marker) dynamic with control over shape, color, size, and icon easily changed using options in the marker object as well as simple [SVG Notation](http://www.w3.org/TR/SVG/paths.html#PathData) and CSS.
 
-##Markers
+## Quick start
 
-* MAP_PIN
-* SQUARE_PIN
-* SHIELD
-* ROUTE
-* ROUNDED
+There are three quick start ways to download Turret available:
+
+- [Download the latest release](https://github.com/bigfishtv/turret/).
+- Clone the repo: `git clone https://github.com/scottdejonge/map-icons.git`.
+
+##Documentation
+
+<http://map-icons.com>
+
+## Updates
+
+Keep track development updates by following [@map_icons](https://twitter.com/map_icons) on Twitter.
+
+## Versioning
+
+For transparency into our release cycle and in striving to maintain backward compatibility, Turret is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+
+## Creators
+
+**Scott de Jonge**
+
+- Twitter: [@scottdejonge](https://twitter.com/scottdejonge)
+- Github: [@scottdejonge](https://github.com/scottdejonge)
 
 ##Usage
 Map Icons extends the [Google Maps Marker](https://developers.google.com/maps/documentation/javascript/reference#Marker) Object to enable either an image or SVG marker to be used with the icon placed on top as a label.
 
-###Creating a Marker
+###Include
+
+Include the fonts in the `dist/font` directory as well as the `dist/css/map-icons.css` stylesheet to use icons in markup as an icon font.
+
+To use the icons with Google Maps include `dist/js/map-icons.js`
+
+
+###Classes
+
+Icon class names are to be used with the `map-icon` class prefix.
 
 ```
-var marker = new Marker({
-	map: map,
-	title: 'Map Icons',
-	position: userLocation,
-	zIndex: 9,
-	icon: {
-		path: MAP_PIN,
-		fillColor: '#0E77E9',
-		fillOpacity: 1,
-		strokeColor: '',
-		strokeWeight: 0,
-		scale: 1/2
-	},
-	custom_label: '<i class="map-icon-parking"></i>'
-});
+<span class="map-icon map-icon-point-of-interest"></span>
 ```
 
 ###Styling the Icon
+
+Styles to icons can be applied with the `.map-icon` CSS selector.
+
+
 ```
-.marker-label,
-.marker-icon {
-	z-index: 99;
-	position: absolute;
-	display: block;
-	margin-top: -50px;
-	margin-left: -25px;
-	width: 50px;
-	height: 50px;
-	font-size: 30px !important;
-	text-align: center;
+.map-icon {
+	...
+}
+```
+
+Explict styles to icons being used on a Google Map should be applied with `.map-icon-label .map-icon` CSS selector.
+
+
+```
+.map-icon-label .map-icon {
+	font-size: 24px;
 	color: #FFFFFF;
+	line-height: 48px;
+	text-align: center;
 	white-space: nowrap;
 }
 ```
 
-##Changelog
+###Creating a Marker
 
-#### Version 2.2
+Markers are created just like a normal Google Maps Marker, however, the class is extended for the `map_icon_label` property to add in markup for marker labels.
 
-* Updated `label` field to `custom_label` @see: https://github.com/scottdejonge/Map-Icons/issues/26
-
-#### Version 2.1
-
-* Changed icon- prefix to map-icon-
-* Added ROUNDED marker
-* Fixed SVG Markers to center on LatLng
-
-#### Version 2.0
-
-* Added Activity Icons
-* Fix Marker Docs with SVG Notation
-
-#### Version 1.2
-
-* Fixed Icons to be Pixel Grid Aligned
-* Added User Interface Icons
-* Added Marker Icons
- 
-#### Version 1.1
-
-* Added Marker Shapes
-
-#### Version 1.0
-
-* Initial Commit
-
-##Author
-
-Twitter: [@scottdejonge](http://twitter.com/scottdejonge)
-
-GitHub: <https://github.com/scottdejonge>
-
+```
+var marker = new Marker({
+	map: map,
+	position: new google.maps.LatLng(-27.46577, 153.02303),
+	icon: {
+		path: SQUARE_PIN,
+		fillColor: '#00CCBB',
+		fillOpacity: 1,
+		strokeColor: '',
+		strokeWeight: 0
+	},
+	map_icon_label: '<span class="map-icon map-icon-point-of-interest"></span>'
+});
+```
 
 ##License
 ###Font License
 
-Applies to all desktop and webfont files in the following directory: `map-icon/font/`
+Applies to font files inside: `dist` directory.
 
 Map Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
 
 ###Code License
 
-Applies to code inside: `map-icons.css`, `map-icons.js` and `map-icons-min.js`.
+Applies to code inside: `dist` directory.
 
 Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
 
 ###Documentation License
 
-Applies to all Map Icons project files that are not a part of the Font or Code licenses.
+Applies to files not a part of other licenses.
 
 Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
