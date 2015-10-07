@@ -96,6 +96,7 @@ MarkerLabel.prototype.draw = function() {
 	this.div.innerHTML = this.get('text').toString();
 
 	div.style.zIndex = this.get('zIndex'); // Allow label to overlay marker
+	div.style.position = 'absolute';
 	div.style.display = 'block';
 	div.style.left = (position.x - (div.offsetWidth / 2)) + 'px';
 	div.style.top = (position.y - div.offsetHeight) + 'px';

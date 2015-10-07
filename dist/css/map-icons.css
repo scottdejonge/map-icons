@@ -9,11 +9,6 @@
 	font-style: normal;
 }
 
-.map-icon-label {
-	z-index: 99;
-	position: absolute;
-}
-
 .map-icon-label .map-icon {
 	font-size: 24px;
 	color: #FFFFFF;
