@@ -21,7 +21,7 @@ function initialise() {
 
 	var marker1 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.46577, 153.02303),
+		position: new google.maps.LatLng(-27.46577, 153.02303),
 		icon: {
 			path: SQUARE_PIN,
 			fillColor: '#00CCBB',
@@ -34,7 +34,7 @@ function initialise() {
 	
 	var marker2 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.46617, 153.01865),
+		position: new google.maps.LatLng(-27.46617, 153.01865),
 		icon: {
 			path: ROUTE,
 			fillColor: '#1998F7',
@@ -47,7 +47,7 @@ function initialise() {
 	
 	var marker3 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.46870, 153.02335),
+		position: new google.maps.LatLng(-27.46870, 153.02335),
 		icon: {
 			path: MAP_PIN,
 			fillColor: '#6331AE',
@@ -60,7 +60,7 @@ function initialise() {
 	
 	var marker4 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.46900, 153.02009),
+		position: new google.maps.LatLng(-27.46900, 153.02009),
 		icon: {
 			path: SQUARE_ROUNDED,
 			fillColor: '#6331AE',
@@ -73,7 +73,7 @@ function initialise() {
 	
 	var marker5 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.46904, 153.02754),
+		position: new google.maps.LatLng(-27.46904, 153.02754),
 		icon: {
 			path: SQUARE,
 			fillColor: '#00CCBB',
@@ -86,7 +86,7 @@ function initialise() {
 	
 	var marker6 = new Marker({
 		map: map,
-		position:  new google.maps.LatLng(-27.47167, 153.02580),
+		position: new google.maps.LatLng(-27.47167, 153.02580),
 		icon: {
 			path: SHIELD,
 			fillColor: '#6331AE',
