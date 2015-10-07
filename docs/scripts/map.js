@@ -38,7 +38,7 @@ function createMap() {
 		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46577, 153.02303),
 		icon: {
-			path: SQUARE,
+			path: SQUARE_PIN,
 			fillColor: '#6331AE',
 			fillOpacity: 1,
 			strokeColor: '',
@@ -53,8 +53,8 @@ function createMap() {
 		title: 'Map Icons',
 		position:  new google.maps.LatLng(-27.46617, 153.01865),
 		icon: {
-			path: SQUARE_PIN,
-			fillColor: '#0196FA',
+			path: ROUTE,
+			fillColor: '#6331AE',
 			fillOpacity: 1,
 			strokeColor: '',
 			strokeWeight: 0
@@ -69,7 +69,7 @@ function createMap() {
 		position:  new google.maps.LatLng(-27.46870, 153.02335),
 		icon: {
 			path: MAP_PIN,
-			fillColor: '#642BB1',
+			fillColor: '#6331AE',
 			fillOpacity: 1,
 			strokeColor: '',
 			strokeWeight: 0
