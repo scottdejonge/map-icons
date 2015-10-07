@@ -72,7 +72,7 @@
 			<h2>Icons</h2>
 
 			<!-- General -->
-			<h3 class="category-title">General</h3>
+			<h3 class="block-title">General</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-art-gallery"></span>
@@ -181,7 +181,7 @@
 			</ul>
 
 			<!-- Toilets -->
-			<h3 class="category-title">Toilets</h3>
+			<h3 class="block-title">Toilets</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-female"></span>
@@ -202,7 +202,7 @@
 			</ul>
 
 			<!-- Food -->
-			<h3 class="category-title">Food</h3>
+			<h3 class="block-title">Food</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-bakery"></span>
@@ -223,7 +223,7 @@
 			</ul>
 
 			<!-- Stores -->
-			<h3 class="category-title">Stores</h3>
+			<h3 class="block-title">Stores</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-liquor-store"></span>
@@ -296,10 +296,10 @@
 			</ul>
 
 			<!-- Activities -->
-			<h3 class="category-title">Activities</h3>
+			<h3 class="block-title">Activities</h3>
 
 			<!-- Land Activities -->
-			<h4 class="subcategory-title">Land Activities</h4>
+			<h4 class="block-subtitle">Land Activities</h4>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-abseiling"></span>
@@ -368,7 +368,7 @@
 			</ul>
 
 			<!-- Water Activities -->
-			<h4 class="subcategory-title">Water Activities</h4>
+			<h4 class="block-subtitle">Water Activities</h4>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-boating"></span>
@@ -449,7 +449,7 @@
 			</ul>
 
 			<!-- Winter Activities -->
-			<h4 class="subcategory-title">Winter Activities</h4>
+			<h4 class="block-subtitle">Winter Activities</h4>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-chairlift"></span>
@@ -498,7 +498,7 @@
 			</ul>
 
 			<!-- Transport -->
-			<h3 class="category-title">Transport</h3>
+			<h3 class="block-title">Transport</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-train-station"></span>
@@ -551,7 +551,7 @@
 			</ul>
 
 			<!-- Health -->
-			<h3 class="category-title">Health</h3>
+			<h3 class="block-title">Health</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-health"></span>
@@ -584,7 +584,7 @@
 			</ul>
 
 			<!-- Entertainment -->
-			<h3 class="category-title">Entertainment</h3>
+			<h3 class="block-title">Entertainment</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-bar"></span>
@@ -621,7 +621,7 @@
 			</ul>
 
 			<!-- Services -->
-			<h3 class="category-title">Services</h3>
+			<h3 class="block-title">Services</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-storage"></span>
@@ -658,7 +658,7 @@
 			</ul>
 
 			<!-- Business -->
-			<h3 class="category-title">Business</h3>
+			<h3 class="block-title">Business</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-insurance-agency"></span>
@@ -683,7 +683,7 @@
 			</ul>
 
 			<!-- Government -->
-			<h3 class="category-title">Government</h3>
+			<h3 class="block-title">Government</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-courthouse"></span>
@@ -716,7 +716,7 @@
 			</ul>
 
 			<!-- Religious -->
-			<h3 class="category-title">Religious</h3>
+			<h3 class="block-title">Religious</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-place-of-worship"></span>
@@ -741,7 +741,7 @@
 			</ul>
 
 			<!-- Accessibility -->
-			<h3 class="category-title">Accessibility</h3>
+			<h3 class="block-title">Accessibility</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-wheelchair"></span>
@@ -782,7 +782,7 @@
 			</ul>
 
 			<!-- User Interface -->
-			<h3 class="category-title">User Interface</h3>
+			<h3 class="block-title">User Interface</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-search"></span>
@@ -827,7 +827,7 @@
 			</ul>
 
 			<!-- Marker Icons -->
-			<h3 class="category-title">Marker Icons</h3>
+			<h3 class="block-title">Marker Icons</h3>
 			<ul class="icons">
 				<li>
 					<span class="map-icon map-icon-map-pin"></span>
@@ -925,35 +925,44 @@
 		<div class="container">
 			<h2>Usage</h2>
 			<p>Map Icons extends the <a href="https://developers.google.com/maps/documentation/javascript/reference#Marker">Google Maps Marker</a> Object to enable either an image or SVG marker to be used with the icon placed on top as a label.</p>
-			<h3>Include</h3>
-			<p>Include the fonts in the <code>/font/</code> directory as well as the <code>map-icons.css</code> stylesheet, and the new Marker class in <code>map-icons.js</code></p>
-			<h3>Creating a Marker</h3>
-			<pre><code>
-var marker = new Marker({
+
+			<h3 class="block-title">Include</h3>
+			<p>Include the fonts in the <code>dist/font</code> directory as well as the <code>dist/css/map-icons.css</code> stylesheet to use icons in markup as an icon font.</p>
+			<p>To use the icons with Google Maps include <code>dist/js/map-icons.js</code></p>
+
+			<h3 class="block-title">Classes</h3>
+			<p>Icon class names are to be used with the <code>map-icon</code> class prefix.</p>
+
+			<pre><code>&lt;span class="map-icon map-icon-point-of-interest"&gt;&lt;/span&gt;</code></pre>
+			<h3 class="block-title">Styling the Icon</h3>
+			<p>Styles to icons can be applied with the <code>.map-icon</code> CSS selector.</p>
+<pre><code>.map-icon {
+	...
+}</code></pre>
+			<p>Explicity styles to icons being used on a Google Map should be applied with <code>.map-icon-label .map-icon</code> CSS selector.</p>
+<pre><code>.map-icon-label .map-icon {
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 48px;
+	text-align: center;
+	white-space: nowrap;
+}</code></pre>
+
+			<h3 class="block-title">Creating a Marker</h3>
+			<p>Markers are created just like a normal Google Maps Marker, however, the class is extended for the <code>map_icon_label</code> property to add in markup for marker labels.</p>
+<pre><code>var marker = new Marker({
 	map: map,
-	title: 'Map Icons',
-	position: LatLng,
-	zIndex: 9,
+	position:  new google.maps.LatLng(-27.46577, 153.02303),
 	icon: {
-		path: MAP_PIN,
-		fillColor: '#0E77E9',
+		path: SQUARE_PIN,
+		fillColor: '#00CCBB',
 		fillOpacity: 1,
 		strokeColor: '',
-		strokeWeight: 0,
-		scale: 1/2
+		strokeWeight: 0
 	},
-	map_icon_label: '&lt;span class="map-icon map-icon-parking"&gt;&lt;/span&gt;'
-});
-			</code></pre>
-			<h3>Styling the Icon</h3>
-			<pre><code>
-.map-icon-label .map-icon {
-	font-size: 24px;
-	text-align: center;
-	color: #FFFFFF;
-	white-space: nowrap;
-}
-			</code></pre>
+	map_icon_label: '&lt;span class="map-icon map-icon-point-of-interest"&gt;&lt;/span&gt;'
+});</code></pre>
+
 		</div>
 	</div>
 	</section>

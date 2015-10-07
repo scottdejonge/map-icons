@@ -17,7 +17,7 @@
     "uglify-js": " ^2.4.23"
   },
   "scripts": {
-    "docs:watch": "watch \"npm run build:css\" \"docs/styles\"",
+    "docs:watch": "watch \"npm run docs:build\" \"docs/styles\"",
     "docs:build": "lessc --include-path=\"node_modules/bigfishtv-turret\" docs/styles/main.less --clean-css --autoprefix > docs/css/main.css",
     "dist:css": "cleancss -o dist/css/map-icons.min.css dist/css/map-icons.css",
     "dist:js": "uglifyjs dist/js/map-icons.js -o dist/js/map-icons.min.js",
