@@ -1,19 +1,6 @@
-/*
- * Variables
- */
-
-var mapCanvas = document.getElementById('map-canvas');
-
-/*
- * Initialise
- */
-
 function initialise() {
-	google.maps.event.addDomListener(window, 'load', createMap);
-};
-
-function createMap() {
-
+	var mapCanvas = document.getElementById('map-canvas');
+	
 	// Center
 	var center = new google.maps.LatLng(-27.46834, 153.02365);
 
@@ -123,6 +110,4 @@ function createMap() {
 	});
 };
 
-module.exports = {
-	initialise: initialise
-};
+google.maps.event.addDomListener(window, 'load', initialise);
