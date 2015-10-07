@@ -1,6 +1,6 @@
 {
   "name": "map-icons",
-  "description": "",
+  "description": "An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels",
   "version": "3.0.0",
   "repository": {
     "type": "git",
