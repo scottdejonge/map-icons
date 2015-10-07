@@ -9,22 +9,22 @@
 	font-style: normal;
 }
 
-.marker-label,
-.marker-icon {
+.map-icon-label {
 	z-index: 99;
 	position: absolute;
-	display: block;
+}
+
+.map-icon-label .map-icon {
+	/*position: absolute;
 	margin-top: -50px;
-	margin-left: -25px;
-	width: 50px;
-	height: 50px;
-	font-size: 30px !important;
+	margin-left: -25px;*/
+	font-size: 24px;
 	text-align: center;
 	color: #FFFFFF;
 	white-space: nowrap;
 }
 
-[class^="map-icon-"], [class*=" map-icon-"] {
+.map-icon {
 	font-family: 'map-icons';
 	speak: none;
 	font-style: normal;

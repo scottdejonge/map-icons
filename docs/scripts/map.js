@@ -45,7 +45,7 @@ function createMap() {
 			strokeWeight: 0,
 			scale: 1/2
 		},
-		custom_label: '<i class="map-icon-walking"></i>'
+		map_icon_label: '<span class="map-icon map-icon-walking"></span>'
 	});
 	
 	var marker2 = new Marker({
@@ -61,7 +61,7 @@ function createMap() {
 			strokeWeight: 0,
 			scale: 1/2
 		},
-		custom_label: '<i class="map-icon-cafe"></i>'
+		map_icon_label: '<span class="map-icon map-icon-cafe"></span>'
 	});
 	
 	var marker3 = new Marker({
@@ -77,7 +77,7 @@ function createMap() {
 			strokeWeight: 0,
 			scale: 1/2
 		},
-		custom_label: '<i class="map-icon-car-wash"></i>'
+		map_icon_label: '<span class="map-icon map-icon-car-wash"></span>'
 	});
 	
 	var marker4 = new Marker({
@@ -93,7 +93,7 @@ function createMap() {
 			strokeWeight: 0,
 			scale: 1/2
 		},
-		custom_label: '<i class="map-icon-male"></i>'
+		map_icon_label: '<span class="map-icon map-icon-male"></span>'
 	});
 };
 

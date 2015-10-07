@@ -27,11 +27,11 @@ var inherits = function(childCtor, parentCtor) {
 function Marker(options){
 	google.maps.Marker.apply(this, arguments);
 
-	if (options.custom_label) {
+	if (options.map_icon_label) {
 		this.MarkerLabel = new MarkerLabel({
 			map: this.map,
 			marker: this,
-			text: options.custom_label
+			text: options.map_icon_label
 		});
 		this.MarkerLabel.bindTo('position', this, 'position');
 	}
@@ -53,10 +53,7 @@ var MarkerLabel = function(options) {
 	
 	// Create the label container
 	this.div = document.createElement('div');
-	this.div.className = 'marker-label';
-	var span = document.createElement('span');
-	span.className = "marker-icon";
-	this.div.appendChild(span);
+	this.div.className = 'map-icon-label';
  
 	// Trigger the marker click handler if clicking on the label
 	google.maps.event.addDomListener(this.div, 'click', function(e){
@@ -95,9 +92,11 @@ MarkerLabel.prototype.draw = function() {
 	var position = projection.fromLatLngToDivPixel(this.get('position'));
 	var div = this.div;
 
-	div.style.left = position.x + 'px';
-	div.style.top = position.y + 'px';
-	div.style.display = 'block';
-	div.style.zIndex = this.get('zIndex'); // Allow label to overlay marker
 	this.div.innerHTML = this.get('text').toString();
+
+	div.style.zIndex = this.get('zIndex'); // Allow label to overlay marker
+	div.style.display = 'block';
+	div.style.left = (position.x - (div.offsetWidth / 2)) + 'px';
+	div.style.top = (position.y - (div.offsetHeight / 2)) + 'px';
+	
 };
