@@ -986,6 +986,7 @@
 
 			<h3 class="block-title">Creating a Marker</h3>
 			<p>Markers are created just like a normal Google Maps Marker, however, the class is extended for the <code>map_icon_label</code> property to add in markup for marker labels.</p>
+            <p><strong>Note:</strong> You should be creating an instance of <code>Marker</code> rather than <code>google.maps.Marker</code> in order for the functionality added by <code>map_icon_label</code> to work.</p>
 <pre><code class="hljs javascript">var marker = new Marker({
 	map: map,
 	position: new google.maps.LatLng(-27.46577, 153.02303),
