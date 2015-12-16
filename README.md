@@ -77,6 +77,8 @@ Explict styles to icons being used on a Google Map should be applied with `.map-
 
 Markers are created just like a normal Google Maps Marker, however, the class is extended for the `map_icon_label` property to add in markup for marker labels.
 
+**Note:** You should be creating an instance of `Marker` rather than `google.maps.Marker` in order for the functionality added by `map_icon_label` to work.
+
 ```
 var marker = new Marker({
 	map: map,

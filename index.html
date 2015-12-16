@@ -63,7 +63,7 @@
 			<p class="lead">An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels</p>
 			<a class="button button-large button-secondary" href="https://github.com/scottdejonge/map-icons/archive/master.zip">Download</a>
 			<a class="button button-large button-secondary" href="https://github.com/scottdejonge/map-icons">GitHub</a>
-			<p><small>Version 3.0.0 &middot; <a href="https://twitter.com/map_icons">@map_icons</a> &middot; Created &amp; Maintained by <a href="http://twitter.com/scottdejonge">@scottdejonge</a></small></p>
+			<p><small>Version 3.0.1 &middot; <a href="https://twitter.com/map_icons">@map_icons</a> &middot; Created &amp; Maintained by <a href="http://twitter.com/scottdejonge">@scottdejonge</a></small></p>
 		</div>
 	</header>
 
@@ -986,6 +986,7 @@
 
 			<h3 class="block-title">Creating a Marker</h3>
 			<p>Markers are created just like a normal Google Maps Marker, however, the class is extended for the <code>map_icon_label</code> property to add in markup for marker labels.</p>
+            <p><strong>Note:</strong> You should be creating an instance of <code>Marker</code> rather than <code>google.maps.Marker</code> in order for the functionality added by <code>map_icon_label</code> to work.</p>
 <pre><code class="hljs javascript">var marker = new Marker({
 	map: map,
 	position: new google.maps.LatLng(-27.46577, 153.02303),
@@ -1029,7 +1030,7 @@
 	<footer class="footer">
 		<div class="container">
 			<p>
-				Map Icons v3.0.0 Created &amp; Maintained by Scott de Jonge
+				Map Icons v3.0.1 Created &amp; Maintained by Scott de Jonge
 				<a href="http://scottdejonge.com/">Website</a> &middot; 
 				<a href="http://twitter.com/scottdejonge">Twitter</a>
 			</p>

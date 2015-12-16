@@ -1,12 +1,12 @@
 {
   "name": "map-icons",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels",
   "homepage": "http://map-icons.com",
   "authors": [
     "Scott de Jonge"
   ],
-  "main": "dist/js/map-icons.js",
+  "main": ["dist/js/map-icons.js", "dist/css/map-icons.css"],
   "license": "MIT",
   "ignore": [
     "**/.*",
