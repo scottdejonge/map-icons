@@ -7,7 +7,7 @@ Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documen
 
 ## Quick start
 
-There are three quick start ways to download Turret available:
+There are three quick start ways to download Map Icons available:
 
 - [Download the latest release](https://github.com/bigfishtv/turret/).
 - Clone the repo: `git clone https://github.com/scottdejonge/map-icons.git`.
@@ -22,7 +22,7 @@ Keep track development updates by following [@map_icons](https://twitter.com/map
 
 ## Versioning
 
-For transparency into our release cycle and in striving to maintain backward compatibility, Turret is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+For transparency into our release cycle and in striving to maintain backward compatibility, Map Icons is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
 ## Creators
 
