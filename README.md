@@ -9,7 +9,7 @@ Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documen
 
 There are three quick start ways to download Map Icons available:
 
-- [Download the latest release](https://github.com/bigfishtv/turret/).
+- [Download the latest release](https://github.com/scottdejonge/map-icons/archive/master.zip).
 - Clone the repo: `git clone https://github.com/scottdejonge/map-icons.git`.
 
 ##Documentation
