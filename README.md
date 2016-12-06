@@ -1,6 +1,8 @@
 Map Icons
 =========
 
+## Map Icons is deprecated [read the thread](https://github.com/scottdejonge/map-icons/issues/60)
+
 Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels
 
 Map Icons makes [Google Maps Markers](https://developers.google.com/maps/documentation/javascript/reference#Marker) dynamic with control over shape, color, size, and icon easily changed using options in the marker object as well as simple [SVG Notation](http://www.w3.org/TR/SVG/paths.html#PathData) and CSS.
