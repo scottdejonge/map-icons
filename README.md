@@ -14,7 +14,7 @@ There are three quick start ways to download Map Icons available:
 - [Download the latest release](https://github.com/scottdejonge/map-icons/archive/master.zip).
 - Clone the repo: `git clone https://github.com/scottdejonge/map-icons.git`.
 
-##Documentation
+## Documentation
 
 <http://map-icons.com>
 
@@ -33,17 +33,17 @@ For transparency into our release cycle and in striving to maintain backward com
 - Twitter: [@scottdejonge](https://twitter.com/scottdejonge)
 - Github: [@scottdejonge](https://github.com/scottdejonge)
 
-##Usage
+## Usage
 Map Icons extends the [Google Maps Marker](https://developers.google.com/maps/documentation/javascript/reference#Marker) Object to enable either an image or SVG marker to be used with the icon placed on top as a label.
 
-###Include
+### Include
 
 Include the fonts in the `dist/font` directory as well as the `dist/css/map-icons.css` stylesheet to use icons in markup as an icon font.
 
 To use the icons with Google Maps include `dist/js/map-icons.js`
 
 
-###Classes
+### Classes
 
 Icon class names are to be used with the `map-icon` class prefix.
 
@@ -51,7 +51,7 @@ Icon class names are to be used with the `map-icon` class prefix.
 <span class="map-icon map-icon-point-of-interest"></span>
 ```
 
-###Styling the Icon
+### Styling the Icon
 
 Styles to icons can be applied with the `.map-icon` CSS selector.
 
@@ -75,7 +75,7 @@ Explict styles to icons being used on a Google Map should be applied with `.map-
 }
 ```
 
-###Creating a Marker
+### Creating a Marker
 
 Markers are created just like a normal Google Maps Marker, however, the class is extended for the `map_icon_label` property to add in markup for marker labels.
 
@@ -96,20 +96,20 @@ var marker = new Marker({
 });
 ```
 
-##License
-###Font License
+## License
+### Font License
 
 Applies to font files inside: `dist` directory.
 
 Map Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
 
-###Code License
+### Code License
 
 Applies to code inside: `dist` directory.
 
 Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
 
-###Documentation License
+### Documentation License
 
 Applies to files not a part of other licenses.
 
