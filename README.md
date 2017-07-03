@@ -79,14 +79,14 @@ Explict styles to icons being used on a Google Map should be applied with `.map-
 
 Markers are created just like a normal Google Maps Marker, however, the class is extended for the `map_icon_label` property to add in markup for marker labels.
 
-**Note:** You should be creating an instance of `Marker` rather than `google.maps.Marker` in order for the functionality added by `map_icon_label` to work.
+**Note:** You should be creating an instance of `mapIcons.Marker` rather than `google.maps.Marker` in order for the functionality added by `map_icon_label` to work.
 
 ```
-var marker = new Marker({
+var marker = new mapIcons.Marker({
 	map: map,
 	position: new google.maps.LatLng(-27.46577, 153.02303),
 	icon: {
-		path: SQUARE_PIN,
+		path: mapIcons.shapes.SQUARE_PIN,
 		fillColor: '#00CCBB',
 		fillOpacity: 1,
 		strokeColor: '',
