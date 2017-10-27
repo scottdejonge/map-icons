@@ -47,7 +47,7 @@ To use the icons with Google Maps include `dist/js/map-icons.js`
 
 Icon class names are to be used with the `map-icon` class prefix.
 
-```
+```html
 <span class="map-icon map-icon-point-of-interest"></span>
 ```
 
@@ -56,7 +56,7 @@ Icon class names are to be used with the `map-icon` class prefix.
 Styles to icons can be applied with the `.map-icon` CSS selector.
 
 
-```
+```css
 .map-icon {
 	...
 }
@@ -65,7 +65,7 @@ Styles to icons can be applied with the `.map-icon` CSS selector.
 Explict styles to icons being used on a Google Map should be applied with `.map-icon-label .map-icon` CSS selector.
 
 
-```
+```css
 .map-icon-label .map-icon {
 	font-size: 24px;
 	color: #FFFFFF;
@@ -81,7 +81,7 @@ Markers are created just like a normal Google Maps Marker, however, the class is
 
 **Note:** You should be creating an instance of `mapIcons.Marker` rather than `google.maps.Marker` in order for the functionality added by `map_icon_label` to work.
 
-```
+```javascript
 var marker = new mapIcons.Marker({
 	map: map,
 	position: new google.maps.LatLng(-27.46577, 153.02303),
